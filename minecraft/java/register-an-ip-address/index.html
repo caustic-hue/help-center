@@ -1,0 +1,203 @@
+<html>
+    <title>FalixNodes Help Desk</title>
+    <link rel="icon" href="https://falixnodes.net/favicon.png">
+    <link rel="stylesheet" href="../../../src/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+    <body>
+        <div class="headerContent">
+            <h1 style="pointer-events: none;">Help Desk</h1>
+            <a href="../../beta/">Beta</a>
+        </div>
+        <div class="iconsHelp">
+        </div>
+        <div class="Contento">
+        <div class="gridOfLinks">
+            <div class="title">
+                <a id="backArrow" href="../../"><i class="fa fa-arrow-left"></i></a>
+                <h1>Registering a Custom IP Address</h1>
+            </div>
+            <div class="post">
+                <p>The first step to getting your own IP, is registering a domain with a domain provider like Namecheap, GoDaddy, or if you want a free domain you can also use Freenom. Go ahead and register a domain at one of the following domain providers:</p>
+                <ui>
+                    <li>Cloudflare</li>
+                    <li>Namecheap</li>
+                    <li>Freenom</li>
+                    <li>GoDaddy</li>
+                </ui>
+                <p>Once you've registered a domain, I recommend to use Cloudflare for security and to manage DNS with it. Cloudflare allows you to use a SRV record, not all domain providers offer this in their DNS manager like Freenom. So now go ahead and create a Cloudflare account and add your site to Cloudflare with the "Add Site" button after signing up.</p>
+                <p>To manage our DNS with Cloudflare, we just need to change the nameservers on the domain:</p>
+                <div class="sidenav">
+                    <button class="dropdown-btn">Namecheap 
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                      <p>Go to your domain list and click "Manage" on your domain. In "Nameservers", select Custom DNS. Put in the following Cloudflare servers for the custom DNS:</p>
+                      <p>connie.ns.cloudflare.com</p>
+                      <p>newt.ns.cloudflare.com</p>
+                    </div>
+                    <button class="dropdown-btn">Freenom
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                      <p>Go to your domain list and click "Manage" on your domain. Under "Management Tools", go to "Nameservers". Select "Use custom nameservers", then put the following nameservers in the first two boxes:</p>
+                      <p>connie.ns.cloudflare.com</p>
+                      <p>newt.ns.cloudflare.com</p>
+                    </div>
+                    <button class="dropdown-btn">GoDaddy
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-container">
+                      <p>Go to your domain list and click "Manage" on your domain. In Addition settings, click "Manage DNS". In the nameserver section, enter your own nameservers, which is the following:</p>
+                      <p>connie.ns.cloudflare.com</p>
+                      <p>newt.ns.cloudflare.com</p>
+                    </div>
+                  </div>
+                <p>Now you can finally setup the DNS records and allow the domain to connect to your Minecraft server. We'll be doing everything else through Cloudflare now.</p>
+                <p>In your Cloudflare dashboard, click on your domain that you added, and head over to DNS. We wil be adding two record, first is the A Record for the IP address of our server, then setup a SRV Record to use the correct port provided by FalixNodes.</p>
+                <p>We'll need to grab the IP address of our server, which you can find in the Allocations Settings in the control panel on FalixNodes. With the IP address from the Allocations Settings, we can now create the A Record. For the name, use "play", then use the IP address from Allocations Settings for IPv4.</p>
+                <p>Your A Record should look something like this:</p>
+                <table id="customers">
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Content</th>
+                  </tr>
+                  <tr>
+                    <td>A</td>
+                    <td>play</td>
+                    <td>(Your Server's IPv4 Address)</td>
+                  </tr>
+                  <tr>
+                </table>
+                <p>Now for the SRV Record, for the name use "@"(Which wil be the root of the domain), use "_minecraft_ for the service, protocol stays as TCP, Priority and Weight should be set to 0, the the port of your Minecraft server should be set for port. Now, for the target, use "play.YOUR.DOMAIN", "play." must be included.</p>
+                <p>Your SRV Record should look something like this:</p>
+                <table id="customers">
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Service</th>
+                    <th>Protocol</th>
+                    <th>Priority</th>
+                    <th>Weight</th>
+                    <th>Port</th>
+                    <th>Target</th>
+                  </tr>
+                  <tr>
+                    <td>SRV</td>
+                    <td>@</td>
+                    <td>_minecraft</td>
+                    <td>TCP</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>(Your server's port)</td>
+                    <td>play.(your domain)</td>
+                  </tr>
+                  <tr>
+                </table>
+                <p>After around 5 minutes of setting up the records, your IP address should start working.</p>
+            </div>
+        </div>
+        </body>
+</html>
+
+<script>
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+    
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+      } else {
+      dropdownContent.style.display = "block";
+      }
+      });
+    }
+    </script>
+
+<style>
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: none;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #252525;}
+
+#customers tr:hover {background-color: #252525;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6a5edc;
+  color: white;
+}
+
+
+
+
+
+
+.sidenav {
+    width: 100%;
+    background-color: #252525;
+    overflow-x: hidden;
+    border-radius: 5px;
+}
+
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 200px;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.active {
+  background-color: #6a5edc;
+  color: white;
+}
+
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>

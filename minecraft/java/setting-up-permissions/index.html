@@ -1,0 +1,40 @@
+<html>
+    <title>FalixNodes Help Desk</title>
+    <link rel="icon" href="https://falixnodes.net/favicon.png">
+    <link rel="stylesheet" href="../../../src/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+    <body>
+        <div class="headerContent">
+            <h1 style="pointer-events: none;">Help Desk</h1>
+            <a href="../../beta/">Beta</a>
+        </div>
+        <div class="iconsHelp">
+        </div>
+
+        <div class="Contento">
+        <div class="gridOfLinks">
+            <div class="title">
+                <a id="backArrow" href="../../"><i class="fa fa-arrow-left"></i></a>
+                <h1>Setting up Permissions</h1>
+            </div>
+            <div class="post">
+                <p>Setting up permissions for your players is important, useful for creating ranks and giving certain permissions to those ranks. This article shows how to setup and use Luckperms.</p>
+                <p>First thing is to download the <a href="https://luckperms.net/download">LuckPerms</a> from their official website. Choose Luckperms for Bukkit. Add the .jar file downloaded from the site into your plugins folder, and restart your server.</p>
+                <p><strong>Creating a Group(or Rank)</strong></p>
+                <p>Creating a group on LuckPerms is basically the same thing as adding a new rank or you could also call it a role. To create a group, type the following command:</p>
+                <p id="command">/luckperms creategroup <<span>name></span></p>
+                <p><strong>Setting Permission to a Group</strong></p>
+                <p>You can set permissions to certain things for groups. Use this command:</p>
+                <p id="command">/luckperms group <<span>groupname></span> permission set <<span>permission.to.set></span></p>
+                <p>Example:</p>
+                <p id="command">/luckperms group world-edit permission set worldedit.selection.*</p>
+                <p><strong>Setting Permission to a User</strong></p>
+                <p>This works the same as it does for groups, but this time, for a user:</p>
+                <p id="command">/luckperms user <<span>username></span> permission set <<span>permission.to.set></span></p>
+            </div>
+        </div>
+        </body>
+</html>

@@ -1,0 +1,123 @@
+<html>
+    <title>FalixNodes | Help Desk</title>
+    <link rel="icon" href="https://falixnodes.net/favicon.png">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <body>
+        <a id="GoBackBro" style="z-index: 50;" href="https://help.falixnodes.xyz"><i class="fa fa-arrow-left"></i></a>
+        <div class="subscribe">
+            <div class="topS">
+                <h1>Subscribe</h1>
+                <p><i class="fa fa-thumbs-up"></i> Get updates, helpful tips, and more when you subscribe to our news letter.</p>
+                <section id="section10" class="demo">
+                    <a href="#thanks"><span></span></a>
+                  </section>
+                </div>
+                <section id="thanks">
+                    <div>
+                      <iframe src="https://admin175684.typeform.com/to/y95PWIiN"></iframe>
+                    </div>
+                </section>
+        </div>
+    </body>
+</html>	
+<script>
+$(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
+</script>
+<style>
+body::before {
+    height: 500px;
+}
+p {
+    margin: 0px 70px;
+}
+.subscribe {
+    text-align: center;
+    margin-top: 190px;
+}
+section#thanks iframe {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: none;
+    width: 100%;
+    height: 1000px;
+}
+#section10 a span {
+    position: absolute;
+    top: 400px;
+}
+#section10 a {
+  padding-top: 60px;
+}
+section#thanks {
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    border: none;
+    width: 100%;
+    height: 1000px;
+}
+#section10 a span {
+  position: absolute;
+  left: 50%;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#section10 a span::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: sdb10 2s infinite;
+  animation: sdb10 2s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb10 {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb10 {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+</style>
