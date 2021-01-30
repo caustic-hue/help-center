@@ -1,0 +1,38 @@
+<html>
+    <title>FalixNodes Help Desk</title>
+    <link rel="icon" href="https://falixnodes.net/favicon.png">
+    <link rel="stylesheet" href="../../../src/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <body>
+        <div class="header">
+            <div class="header-start">
+                <h1>FalixNodes Help Center</h1>
+            </div>
+            <div class="header-end">
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+        <div class="Contento">
+        <div class="post1">
+            <div class="title">
+                <a id="backArrow" href="../../"><i class="fa fa-arrow-left"></i></a>
+                <h1>Connecting your Domain</h1>
+            </div>
+            <div class="post">
+                <p>When connecting your domain to a web server on FalixNodes, you’ll the numberic IP address and port number. You’re also required to install an app on the domain in Cloudflare, which will be told later.</p>
+                <p>In the DNS settings, create an <strong>A Record</strong>, set “@” as the name and the numberic IP as IPv4 address.</p>
+                <p>We need a way to tell Cloudflare to use a different port number, making sure the domain uses the port FalixNodes provides to the user. By default, Cloudflare will try to use port 80. <br>Click on Works and click on Manage Workers. In Works, click on Create Worker and remove all code that is provided by Cloudflare.</p>
+                <p>Use this code instead:</p>
+                <pre class="wp-block-code"><code>addEventListener('fetch', event =&gt; {
+                  const request = event.request;
+                  var url = new URL(request.url);
+                  url.host = 'my.domain.com:12345';
+                  event.respondWith(fetch(url, request));
+                });</code></pre>
+                <p>On the forth line, change “my.domain.com” to your domain and switch the port “12345” to the port FalixNodes provides you.</p>
+            </div>
+        </div>
+        </body>
+</html>

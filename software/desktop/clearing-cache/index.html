@@ -1,0 +1,42 @@
+<html>
+    <title>FalixNodes Help Desk</title>
+    <link rel="icon" href="https://falixnodes.net/favicon.png">
+    <link rel="stylesheet" href="../../../src/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <body>
+        <div class="header">
+            <div class="header-start">
+                <h1>FalixNodes Help Center</h1>
+            </div>
+            <div class="header-end">
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-discord"></i></a>
+            </div>
+        </div>
+        <div class="Contento">
+        <div class="post1">
+            <div class="title">
+                <a id="backArrow" href="../../"><i class="fa fa-arrow-left"></i></a>
+                <h1>Uninstalling</h1>
+            </div>
+            <div class="post">
+                <p class="has-small-font-size"><em>This article has been updated for FalixNodes Software v2.2.0</em></p>
+                <p>There are reasons to why you might want to clear cache, it may also help the app to run better if you clear cache every month or two.</p>
+                <h4>Clearing Cache on Windows:</h4>
+                <pre class="wp-block-code"><code>%appdata%\FalixNodes</code></pre>
+                <p>On Windows, you can type that path in to Run(Start + R) and it will bring you there.</p>
+                <h4>Clearing Cache on macOS:</h4>
+                <p>Open Finder and in the menubar, click on Go and Go To Folder, use this path:</p>
+                <pre class="wp-block-code"><code>~/Library/Application Support/FalixNodes/</code></pre>
+                <p>Drag the file named “Cookie” into your trash bin.</p>
+                <h4>Clearing Cache on Linux:</h4>
+                <p>Deleting cache manually can break Snap, so we need to remove FalixNodes with Snap then re-install it:</p>
+                <pre class="wp-block-code"><code>sudo snap remove --purge falixnodes
+                sudo snap install falixnodes --beta</code></pre>
+                <h4>Clearing Cache on iOS:</h4>
+                <p>Go to Settings &gt; Safari &gt; then tab on Clear History and Website Data.<br>The app for iOS relies on Safari, this is data has to be cleared in Safari in order to clear cache on the app.</p>
+            </div>
+        </div>
+        </body>
+</html>
