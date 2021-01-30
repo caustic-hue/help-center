@@ -147,3 +147,11 @@ div#disabled::before {
 div#disabled {
     filter: brightness(0.2) contrast(0.9);
 }
+
+a#viewOnYouTube {
+    position: absolute;
+    right: 0px;
+    background: red;
+    font-size: 12px;
+    display: none;
+}
