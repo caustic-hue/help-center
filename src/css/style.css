@@ -19,6 +19,11 @@ body {
     overflow-x: hidden;
 }
 a{color:white}
+code {
+    background: #292929;
+    padding: 6px;
+    border-radius: 7px;
+}
 
 .header {
     background: var(--accent);
@@ -143,7 +148,12 @@ div#disabled::before {
     padding: 110px 0px 0px 0px;
     color: white;
 }
-
+p#post_warning {
+    background: yellow;
+    color: black;
+    padding: 20px 20px;
+    border-radius: 7px;
+}
 div#disabled {
     filter: brightness(0.2) contrast(0.9);
 }
