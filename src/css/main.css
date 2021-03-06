@@ -1,0 +1,178 @@
+:root {
+  --accent: #6B5FD7;
+}
+body {
+  background: #333333;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-gap: 30px;
+}
+::selection{background:var(--accent);color: white;}
+::-webkit-scrollbar{width: 0px;height:0px;}
+a {color: white;}
+
+
+.filterDiv {
+  float: left;
+  width: 300px;
+  text-align: left;
+  margin: 2px;
+  display: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.show {display: block;}
+p#tag {display:none;}
+
+.her_t3 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 163px;
+  background: var(--accent);
+  margin: -10px 0px 0px -10px;
+  padding: 170px 60px;
+}
+.con_her_t3 {
+  position: absolute;
+  left: 50%;
+  width: 1000px;
+  transform: translate(-50%);
+}
+input#myInput {
+  background: #232323;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  width: 50%;
+  border-radius: 7px;
+}
+input#myInput:focus{outline: none}
+
+.content {
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 1000px;
+  background: #232323;
+  border-radius: 10px;
+  padding: 0px 0px 10px 0px;
+}
+div#myBtnContainer {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+div#myBtnContainer button {
+  background: transparent;
+  padding: 9px 17px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  transition: 0.3s background;
+}
+div#myBtnContainer button:hover{transition: 0.3s background;cursor: pointer; background: #333333;}
+button.btn.active{transition: 0.3s background;background: var(--accent) !important}
+
+div#search {
+  margin-top: 40px;
+  margin-left: 10px;
+  display: grid;
+  grid-gap: 10px;
+  padding: 0px 0px 10px 0px;
+}
+.filterDiv h1 {
+  font-size: 24px;
+  background: var(--accent);
+  color: white;
+  padding: 9px 20px;
+  width: 935px;
+  border-radius: 7px;
+}
+.card_grid {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 300px 300px 300px;
+}
+.card_ot {
+  background: #333333;
+  border-radius: 10px;
+}
+.card_ot h2 {
+  background: var(--accent);
+  font-size: 18px;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 0px;
+  padding: 10px 15px;
+  margin-bottom: 0px;
+}
+.card_ot ui {
+  list-style: none;
+}
+.card_ot li {
+  width: 100%;
+}
+.card_ot a {
+  text-decoration: none;
+}
+li button {
+  background: transparent;
+  transition: 0.3s background;
+  border: none;
+  padding: 11px 15px;
+  width: 100%;
+  text-align: left;
+}
+li button:hover{
+  background: #232323;
+  transition: 0.3s background;
+}
+
+.article {
+  margin: 20px;
+  display: flex;
+}
+.sidebar {
+  text-align: left;
+  width: 300px;
+}
+.sidebar p {
+  margin: 0px 0px 10px 0px;
+}
+.sidebar div {
+  background: #333333;
+  border-radius: 10px;
+  padding: 40px 15px 10px 15px;
+  margin-bottom: 15px;
+}
+p#title {
+  font-weight: bold;
+}
+p#date, p#category {
+  font-size: 12px;
+}
+.author {
+  display: flex;
+}
+.author p {
+  margin: 16px 0px 0px 15px;
+}
+.author img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.article_content {
+  margin-left: 35px;
+  width: 100%;
+}
+.sidebar div h3 {
+  font-size: 18px;
+  background: #191919;
+  position: absolute;
+  margin: -40px 0px 0px -15px;
+  width: 205px;
+  padding: 4px 0px 4px 15px;
+  border-radius: 10px 10px 0px 0px;
+}

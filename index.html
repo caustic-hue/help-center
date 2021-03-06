@@ -1,717 +1,139 @@
+<!DOCTYPE html>
 <html>
-    <title>FalixNodes - Help Desk</title>
-    <link rel="icon" href="https://falixnodes.net/favicon.png">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/acb8522f6b.js"></script>
-    <body>
-        <div class="header">
-            <div class="header-start">
-                <h1>FalixNodes Help Center</h1>
+  <head>
+    <title>FalixNodes Help Center</title>
+    <link rel="stylesheet" href="./src/css/main.css">
+    <script src="https://kit.fontawesome.com/db4a23598f.js"></script>
+  </head>
+  <body>
+    <div class="her_t3">
+      <div class="con_her_t3">
+        <h1>FalixNodes Help Center</h1>
+        <h2>Looking for something?</h2>
+        <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names.." title="Type in a name">
+      </div>
+    </div>
+    <div class="content">
+      <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('falixnodes')"> FalixNodes</button>
+        <button class="btn" onclick="filterSelection('minecraft')"> Minecraft</button>
+      </div>
+      <div id="search" class="container">
+          <div class="filterDiv falixnodes">
+            <h1>FalixNodes</h1>
+            <div class="card_grid">
+              <div class="card_ot">
+                <h2>General</h2>
+                <ui>
+                  <li><button><a href="#">Getting Started<p id="tag">falixnodes account creating</p></a></button></li>
+                  <li><button><a href="#">Account Management<p id="tag">falixnodes deleting pasword</p></a></button></li>
+                  <li><button><a href="#">Server Management<p id="tag">falixnodes deleting managing servers add port add database</p></a></button></li>
+                  <li><button><a href="#">Joining for Resources<p id="tag">falixnodes j4r more ram core storage database</p></a></button></li>
+                </ui>
+              </div>
+              <div class="card_ot">
+                <h2>Coins</h2>
+                <ui>
+                  <li><button><a href="#">Getting Coins<p id="tag">falixnodes</p></a></button></li>
+                  <li><button><a href="#">Buying Items in Store<p id="tag">falixnodes coins buying extra ram core storage database</p></a></button></li>
+                </ui>
+              </div>
             </div>
-            <div class="header-end">
-                <a href="https://youtube.com/FalixNodes"><i class="fab fa-youtube"></i></a>
-                <a href="https://discord.gg/FalixNodes"><i class="fab fa-discord"></i></a>
+          </div>
+          <div class="filterDiv minecraft">
+            <h1>Minecraft</h1>
+            <div class="card_grid">
+              <div class="card_ot">
+                <h2>General</h2>
+                <ui>
+                  <li><button><a href="#">Getting Started<p id="tag">minecraft mc creating deleting op oping admin operator configuring server icon motd mesage of the day starting</p></a></button></li>
+                  <li><button><a href="#">Maintaining Player Base<p id="tag">minecraft mc maintain playerbase </p></a></button></li>
+                  <li><button><a href="#">Uploading Plugins<p id="tag">minecraft mc</p></a></button></li>
+                  <li><button><a href="#">Custom IP Registeration<p id="tag">minecraft mc cloudflare register domain</p></a></button></li>
+                  <li><button><a href="#">Bungeecord Network Setup<p id="tag">minecraft mc multi multiple proxy</p></a></button></li>
+                </ui>
+              </div>
+              <div class="card_ot">
+                <h2>Plugins</h2>
+                <ui>
+                  <li><button><a href="#">Multiverse Core/Portal<p id="tag">minecraft mc plugin core portal multi multiple worlds</p></a></button></li>
+                  <li><button><a href="#">Luckperms<p id="tag">minecraft mc plugin permissions perms </p></a></button></li>
+                  <li><button><a href="./article/minecraft/plugins/discordsrv/">DiscordSRV<p id="tag">miecraft mc plugin sync chat webhook srv</p></a></button></li>
+                  <li><button><a href="#">TAB<p id="tag">minecraft mc plugin</p></a></button></li>
+                  <li><button><a href="#">Worldedit<p id="tag">minecraft mc plugin</p></a></button></li>
+                  <li><button><a href="#">Worldguard<p id="tag">minecraft mc plugin protection anti edit region area</p></a></button></li>
+                </ui>
+              </div>
+              <div class="card_ot">
+                <h2>Troubleshooting</h2>
+                <ui>
+                  <li><button><a href="#">Server Crashes<p id="tag">minecraft mc crashing</p></a></button></li>
+                  <li><button><a href="#">Connection Issues<p id="tag">minecraft mc internet ping lag delay connecting</p></a></button></li>
+                  <li><button><a href="#">Player Skins Not Loading<p id="tag">minecraft mc cracked cracking server default skin offline online</p></a></button></li>
+                </ui>
+              </div>
             </div>
-        </div>
-        <div class="Content">
-            <div style="background: #6b5fdc;" class="category">
-                <img src="./src/images/Icon.png">
-                <h1>FalixNodes</h1>
-            </div>
-            <div class="sub-category">
-                    <div style="background: #6b5fdc;" class="title">
-                        <h1>General</h1>
-                    </div>
-                    <div class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">General</p>
-                            <a href="./FAQ/">FAQ</a>
-                            <a href="./general/error-messages/">Error Messages</a>
-                            <a href="./general/accepting-agreement/">Accepting the Agreement</a>
-                            <a href="./general/reset-password/">Resetting your Password</a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">Control Panel</p>
-                            <a href="./general/adding-a-subuser/">How to Add a Subuser</a>
-                            <a href="./general/file-manager/">File Management</a>
-                            <a href="./general/changing-server-name/">Changing Server Name</a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">Client</p>
-                            <a href="./general/changing-memory-amount/">Changing Memory Amount</a>
-                            <a href="./general/deleting-a-server/">Deleting a Server</a>
-                            <a href="./general/change-diskspace/">Changing Disk Space</a>
-                            <a href="./general/falixcoins/">FalixCoins</a>
-                            <a href="./general/purchasing-from-the-store/">Purchasing from the Store</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="sub-category">
-                    <div style="background: #6b5fdc;" class="title">
-                        <h1>FalixNodes Software</h1>
-                    </div>
-                    <div class="sub-category_list1">
-                        <!-- <div class="sub-category_list">
-                            <p style="font-weight: bold;">General</p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div> -->
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">Desktop</p>
-                            <a href="./software/desktop/clearing-cache/">Clearing Cache</a>
-                            <a href="./software/desktop/uninstalling/">Uninstalling</a>
-                            <a href="./software/desktop/updating/">Updating</a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                        </div>
-                    </div>
-                    <div style="top: 230px;" class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </div>
-                <div style="background: #8bbf5c;" class="category">
-                    <img src="./src/images/minecraft_icon.png">
-                    <h1>Minecraft</h1>
-                </div>
-                <div class="sub-category">
-                        <div style="background: #8bbf5c;" class="title">
-                            <h1>Minecraft Java (PC/Mac)</h1>
-                        </div>
-                        <div class="sub-category_list1">
-                            <div class="sub-category_list">
-                                <p style="font-weight: bold;">Getting Started</p>
-                                <a href="./minecraft/java/creating-a-minecraft-server/">Creating a Server</a>
-                                <a href="./minecraft/java/accessing-the-control-panel/">Access your Control Panel</a>
-                                <a href="./minecraft/java/selecting-java-version/">Selecting Java Version</a>
-                                <a href="./minecraft/java/installing-plugins/">Installing Plugins</a>
-                                <a href="./minecraft/java/setting-up-permissions/">Setting up Permissions</a>
-                                <a href="./minecraft/java/setting-up-rcon/">Setting up RCON</a>
-                            </div>
-                            <div class="sub-category_list">
-                                <p style="font-weight: bold;">Server Issues</p>
-                                <a href="./minecraft/java/somone-is-hacking-or-greifing-my-server/">Someone is hacking/griefing My Server</a>
-                                <a href="./minecraft/java/server-wont-start-or-crashes-when-I-play/">Server won't start or crashes when I play</a>
-                                <a href="./minecraft/java/how-to-find-your-server-ip/">How to Find your Server's IP</a>
-                            </div>
-                            <div class="sub-category_list">
-                                <p style="font-weight: bold;">Others</p>
-                                <a href="./minecraft/java/register-an-ip-address/">Registering a Custom IP Address</a>
-                                <a href="https://medium.com/@support_22111/how-to-optimize-your-minecraft-server-4fe0791d8cbe" target="_blank">How to optimize your Minecraft Server</a>
-                            </div>
-                        </div>
-                        <div style="top: 230px;" class="sub-category_list1">
-                            <div class="sub-category_list">
-                                <p style="font-weight: bold;">Plugins</p>
-                                <a href="./minecraft/java/discordsrv/">DiscordSRV</a>
-                            </div>
-                            <div class="sub-category_list">
-                                <p style="font-weight: bold;"></p>
-                                <a href="#"></a>
-                                <a href="#"></a>
-                                <a href="#"></a>
-                                <a href="#"></a>
-                                <a href="#"></a>
-                                <a href="#"></a>
-                            </div>
-                        </div>
-                    </div>
-                <!-- <div class="sub-category">
-                    <div style="background: #8bbf5c;" class="title">
-                        <h1>Minecraft Bedrock (Andorid/iOS)</h1>
-                    </div>
-                    <div class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">Getting Started</p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                    <div style="top: 230px;" class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </div> -->
-                <div style="background: #009733;" class="category">
-                    <img src="./src/images/nginx-logo.png">
-                    <h1>Nginx (Web Hosting)</h1>
-                </div>
-                <div class="sub-category">
-                    <div style="background: #009733;" class="title">
-                        <h1>Nginx</h1>
-                    </div>
-                    <div class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">Getting Started</p>
-                            <a href="./nginx/creating-a-server/">Creating a Server</a>
-                            <a href="./nginx/domain/connecting-your-domain/">Connecting your Domain (Cloudflare)</a>
-                            <a href="./nginx/domain/connecting-more-than-one-domain/">Connecting more than one Domain</a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                    <div style="top: 230px;" class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </div>
-                <div id="disabled" class="sub-category">
-                    <div style="background: #009733;" class="title">
-                        <h1>WordPress</h1>
-                    </div>
-                    <div class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">Getting Started</p>
-                            <a href="./nginx/creating-a-server/">Creating a Server</a>
-                            <a href="./nginx/connecting-your-domain/">Connecting your Domain (Cloudflare)</a>
-                            <a href="./nginx/connecting-more-than-one-domain/">Connecting more than one Domain</a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                    <div style="top: 230px;" class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </div>
-                <div id="disabled" class="sub-category">
-                    <div style="background: #009733;" class="title">
-                        <h1>myBB</h1>
-                    </div>
-                    <div class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">Getting Started</p>
-                            <a href="./nginx/creating-a-server/">Creating a Server</a>
-                            <a href="./nginx/connecting-your-domain/">Connecting your Domain (Cloudflare)</a>
-                            <a href="./nginx/connecting-more-than-one-domain/">Connecting more than one Domain</a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                    <div style="top: 230px;" class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div style="background: #895f3c;" class="category">
-                    <img src="./src/images/Terraria.png">
-                    <h1>Terraria</h1>
-                </div>
-                <div class="sub-category">
-                    <div style="background: #895f3c;" class="title">
-                        <h1>Terraria</h1>
-                    </div>
-                    <div class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">Getting Started</p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                    <div style="top: 230px;" class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </div> -->
-                <div style="background: #7289DA;" class="category">
-                    <img src="./src/images/Discord_White.svg">
-                    <h1>Discord Bot</h1>
-                </div>
-                <div class="sub-category">
-                    <div style="background: #7289DA;" class="title">
-                        <h1>JS</h1>
-                    </div>
-                    <div class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">Getting Started</p>
-                            <a href="./discord/inviting-your-bot/">Inviting your Bot</a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">JS</p>
-                            <a href="./discord/js/finding-your-token/">Finding your Token</a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                    <div style="top: 230px;" class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="sub-category">
-                    <div style="background: #7289DA;" class="title">
-                        <h1>Python</h1>
-                    </div>
-                    <div class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">Getting Started</p>
-                            <a href="./discord/js/finding-your-token/">Finding your Token</a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                    <div style="top: 230px;" class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="sub-category">
-                    <div style="background: #7289DA;" class="title">
-                        <h1>Java</h1>
-                    </div>
-                    <div class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">Getting Started</p>
-                            <a href="./discord/js/finding-your-token/">Finding your Token</a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                    <div style="top: 230px;" class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </div>
-                <div style="background: #2580c3;" class="category">
-                    <img src="./src/images/TeamSpeak3_White.svg">
-                    <h1>TeamSpeak 3</h1>
-                </div>
-                <div class="sub-category">
-                    <div style="background: #2580c3;" class="title">
-                        <h1>TeamSpeak 3</h1>
-                    </div>
-                    <div class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;">Getting Started</p>
-                            <a href="./teamspeak3/creating-a-server/">Creating a Server</a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                    <div style="top: 230px;" class="sub-category_list1">
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                        <div class="sub-category_list">
-                            <p style="font-weight: bold;"></p>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                            <a href="#"></a>
-                        </div>
-                    </div>
-                </div>
-    </body>
-</html>	
+          </div>
+      </div>
+    </div>
+    <script>
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("filterDiv");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);     
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+    </script>
+    <script>
+    function search() {
+    var input, filter, ul, li, a, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      ul = document.getElementById("search");
+      li = ul.getElementsByTagName("li");
+      for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+      }
+    }
+    </script>
+  </body>
+</html>
