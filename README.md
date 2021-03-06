@@ -23,7 +23,7 @@ name="demo"
 <pre>
 ```
 You can learn more this here: https://www.w3schools.com/html/html_elements.asp
-###  Creating the URL
+### 🔗️ Creating the URL
 Now to create a URL for your new article, which would be something like `https://help.falixnodes.net/article/minecraft/plugins/plugin-name/`
 Remember to follow the file structure above, go ahead and create the folder then use `index.html`([Why?](https://www.namecheap.com/support/knowledgebase/article.aspx/183/27/what-is-an-index-page/)).
 So, as an example, if we're creating an article under the plugin sub category under the Minecraft Java category, we would create a folder named something liked `plugin-name` in `/article/minecraft/plugins/`.
@@ -33,11 +33,11 @@ To display content to the article, make sure the URL is correct on line 60.
 
 Also make sure to update the title name, date, and category name in the sidebar.
 
-###  Give Yourself Credit
+### 🗨️ Give Yourself Credit
 In the help center, there is a sidebar in each article, which also displays the author. Please edit the sidebar area and put yourself down as the author, make sure to upload your avatar to `/src/img/author/`.
 Also, when a user clicks on the author's name, it should direct users to their GitHub profile. We also allow you to put your Twitter or just put your Discord username(If you use Discord username instead, put `#` as the `href`).
 
-### Publishing 
+### 📢️ Publishing 
 Create a [pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests#:~:text=Pull%20requests%20let%20you%20tell,merged%20into%20the%20base%20branch.) on this repo and title it like this "New Post: Name of Article"
 If you're editing an article, title it like "Edit: Name of Existing Article".
 
