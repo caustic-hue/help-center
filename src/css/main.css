@@ -216,19 +216,19 @@ a#thy_author p {
 
 .options {
   display: grid;
-  grid-template-columns: 30px 30px 30px 30px;
-  padding: 0px 0px 10px 7px;
+  padding: 0px 0px 10px 0px;
   width: 253px;
 }
-.options a {
-  background: transparent;
-  transition: 0.3s background;
-  padding: 6px 10px;
-  margin-right: 0px;
-  margin-bottom: -10px;
-}
 .options i {
-  margin-left: -3px;
+  margin: 0px 30px 0px 0px;
+  width: 10px;
+  text-align: center;
+}
+.options a {
+  padding: 10px 10px 10px 20px;
+  transition: 0.3s background;
+  text-decoration: none;
+  cursor: pointer;
 }
 .options a:hover {
   background: rgba(0,0,0,0.2);
@@ -243,3 +243,4 @@ iframe#youtube_embed {
 input#copyLinkBox {
   display: none;
 }
+
