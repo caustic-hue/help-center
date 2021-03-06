@@ -36,6 +36,9 @@ header {
   font-size: 10px;
   left: 15px;
 }
+.branding a {
+  text-decoration: none;
+}
 .icQ {
   position: absolute;
   right: 15px;
