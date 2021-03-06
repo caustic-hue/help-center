@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../../../../src/css/main.css">
     <link rel="stylesheet" href="../../../../src/css/mobile.css">
     <script src="https://kit.fontawesome.com/db4a23598f.js"></script>
+    <script src="../../../../src/js/include.js"></script>
   </head>
   <header>
     <div class="contentQ">
@@ -56,38 +57,21 @@
             </div>
           </div>
           <div class="article_content">
-              <h1>Heading</h1>
-              <h2>Sub Heading</h2>
-              <p>Paragraph</p>
-              <pre>
-.code {
-  background: white;
-}
-              </pre>
-              <ui>
-                  <li>List</li>
-                  <li>List</li>
-                  <li>List</li>
-                  <li>List</li>
-              </ui>
+            <div w3-include-html="../../../../article-raw/minecraft/plugins/discordsrv.html"></div>
           </div>
         </div>
     </div>
     <script>
     function copyLink() {
-    /* Get the text field */
-    var copyText = document.getElementById("copyLinkBox");
-
-    /* Select the text field */
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); /* For mobile devices */
-
-    /* Copy the text inside the text field */
-    document.execCommand("copy");
-
-    /* Alert the copied text */
-    alert("The link has been copied: " + copyText.value);
+      var copyText = document.getElementById("copyLinkBox");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+        document.execCommand("copy");
+      alert("The link has been copied: " + copyText.value);
     }
+    </script>
+    <script>
+      includeHTML();
     </script>
   </body>
 </html>
