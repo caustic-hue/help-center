@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1000px) {
-    .content, .contentQ, .filterDiv, .filterDiv h1, .her_t3, .con_her_t3, header {
+    .content, .contentQ, .filterDiv, .filterDiv h1, .her_t3, .con_her_t3, header, .wrn-content, .warning {
         width: calc(100% - 30px);
     }
     .card_grid {
@@ -18,7 +18,7 @@
     }
 }
 @media only screen and (max-width: 700px) {
-    .card_grid {
+    .card_grid, .wrn-conte, .warningnt {
         grid-template-columns: 100%;
         width: calc(100% - -10px);
     }
