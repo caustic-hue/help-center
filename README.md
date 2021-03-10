@@ -8,6 +8,9 @@ A new design of the help center is being worked on along with adding a few other
 If you plan to add or edit something and add extra files in the making, please follow the file structure to keep things neat and organized.
 
 ## Creating a New Article
+
+NOTE: If you do not want to write down in HTML, you can write in Markdown instead and converted it to HTML using: https://markdowntohtml.com/
+
 ### ✍️ Creating the Article
 By following the file structure above, create a `.html` file first in `/article-raw/` and into the proper category.
 As an example, if you were to create an article that explains on how to install and use a plugin on Minecraft Java, the file would be created like `/article-raw/minecraft/plugins/plugin-name.html`.
