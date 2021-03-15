@@ -8,10 +8,20 @@ body {
   display: grid;
   grid-gap: 30px;
 }
+:target {background: transparent;border-radius: 4px;animation: 2s FadeOutBG;}
 ::selection{background:var(--accent);color: white;}
 ::-webkit-scrollbar{width: 0px;height:0px;}
 a {color: white;}
 a#disabled {text-decoration: line-through;opacity: 0.5;color: black;}
+
+@keyframes FadeOutBG {
+  from {
+    background: var(--accent);
+  }
+  to {
+    background: transparent;
+  }
+}
 
 .content::before {
   content: ".";
