@@ -253,6 +253,7 @@ a#thy_author p {
 }
 .article_content {
   margin: -20px 0px 0px 20px;
+  width: calc(100% - 265px) !important;
 }
 
 .options {
