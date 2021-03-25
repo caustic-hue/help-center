@@ -12,6 +12,7 @@ body {
 ::selection{background:var(--accent);color: white;}
 ::-webkit-scrollbar{width: 0px;height:0px;}
 a {color: white;}
+h2 {border-bottom: 2px rgb(255 255 255 / 10%) solid;padding-bottom: 10px;width: calc(100% - 20px);}
 a#disabled {text-decoration: line-through;opacity: 0.5;color: black;}
 blockquote {
   margin: 20px 0px;
