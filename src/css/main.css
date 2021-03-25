@@ -13,6 +13,20 @@ body {
 ::-webkit-scrollbar{width: 0px;height:0px;}
 a {color: white;}
 a#disabled {text-decoration: line-through;opacity: 0.5;color: black;}
+blockquote {
+  margin: 20px 0px;
+  border-left: 2px white solid;
+  padding-left: 10px;
+}
+pre {
+  background: black;
+  padding: 5px 10px;
+  border-radius: 4px;
+  overflow: auto;
+  width: calc(100% - 40px);
+}
+pre::-webkit-scrollbar {height: 6px;background: #333333;}
+pre::-webkit-scrollbar-thumb {background: #6b5fd6;}
 
 @keyframes FadeOutBG {
   from {
