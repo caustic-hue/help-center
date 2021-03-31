@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Minecraft
+title: FalixNodes
 nav_order: 3
 has_children: true
-permalink: /minecraft
+permalink: /falixnodes/
 ---
 
-# Minecraft
+# FalixNodes

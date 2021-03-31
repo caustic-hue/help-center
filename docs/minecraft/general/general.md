@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Plugins
+title: General
 nav_order: 4
 parent: Minecraft
 has_children: true
-permalink: /minecraft/plugins
+permalink: /minecraft/general
 ---
 
 # Minecraft
-## Plugins
+## General
