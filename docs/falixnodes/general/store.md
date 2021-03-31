@@ -1,0 +1,19 @@
+---
+layout: default
+title:  "Buying Items from the Store"
+date:   2021-03-31 01:58:53 -0400
+author: Ash777
+parent: General
+grand_parent: FalixNodes
+permalink: /falixnodes/general/buying-items-from-the-store
+tags: falixnodes
+---
+
+## Store
+We have a store in which you can buy resources like ram, CPU cores, disk, etc using falixcoins.
+
+## How to access the store
+You would first need to log in at [https://client.falixnodes.net](https://client.falixnodes.net) and then on the sidebar you will see a store option, click on it then you will be redirected to the store.
+
+## How to use the store
+After getting redirected to the store website you will see the price of the item and an interface to change the amount of units of the item you will like to buy. after selecting the right unit of the item click to buy, you should get coins deducted and the item you purchased increased.
