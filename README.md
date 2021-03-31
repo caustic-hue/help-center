@@ -30,4 +30,4 @@ We use [Cloudflare Pages](https://pages.cloudflare.com/) to host the Help Center
 
 Your edit will be reviewed by [Korbs](https://github.com/KorbsStudio/) along with your code to check for any syntax error.
 
-*Use use the [Just the Docs](https://pmarsceill.github.io/just-the-docs/docs/ui-components) theme with slight modifications to styling.*
+*We use the [Just the Docs](https://pmarsceill.github.io/just-the-docs/docs/ui-components) theme with slight modifications to styling.*
