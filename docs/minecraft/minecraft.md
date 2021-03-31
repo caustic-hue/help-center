@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Demo
+title: Minecraft
 nav_order: 3
 has_children: true
-permalink: /demo
+permalink: /minecraft
 ---
 
 # Demo

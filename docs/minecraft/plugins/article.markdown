@@ -2,10 +2,12 @@
 layout: default
 title:  "Article"
 date:   2021-03-31 01:58:53 -0400
-parent: Demo
-permalink: /demo/article/
+author: Korbs
+parent: Plugins
+grand_parent: Minecraft
+permalink: /minecraft/plugins/article/
+tags: minecraft plugins article
 ---
-
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
