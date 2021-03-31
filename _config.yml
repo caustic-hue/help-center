@@ -1,0 +1,9 @@
+
+title: FalixNodes Help Center
+baseurl: ""
+url: ""
+
+# Build settings
+theme: just-the-docs
+plugins:
+  - jekyll-feed

@@ -1,0 +1,86 @@
+:root {
+    --accent-color: #6B5FD3;
+}
+body {
+    background: #232323;
+    color: white;
+}
+h1 {color: white;}
+a{color: var(--accent-color)}
+::selection{background: var(--accent-color);color: white;}
+::-webkit-scrollbar{width: 7px;}
+::-webkit-scrollbar-thumb{background:#333333;}
+div#main-header {
+    background: transparent;
+    border: none;
+}
+.side-bar {
+    background: #333333;
+    border: none;
+}
+a.site-title.lh-tight {
+    color: white;
+    font-size: 16px !important;
+}
+.site-header {
+    border: none;
+}
+
+.nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
+    background-image: none;
+    color: var(--accent-color);
+}
+
+a.nav-list-link {
+    color: white;
+}
+a.nav-list-expander {
+    color: white !important;
+}
+footer.site-footer {
+    display: none;
+}
+input#search-input {
+    background: transparent;
+    color: white;
+}
+.nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link {
+    color: white;
+}
+figure.highlight {
+    background: #333333;
+}
+code.language-ruby {
+    background: transparent;
+}
+pre {
+    background: #333333;
+}
+
+code.language-plaintext.highlighter-rouge {
+    padding: 2px 5px 0px 5px;
+    background: #333333;
+    border: none;
+}
+
+.nav-list .nav-list-item .nav-list-expander:hover {
+    background-image: transparent !important;
+    background-color: transparent !important;
+    background: transparent !important;
+}
+.site-title:hover {
+    background-image: transparent !important;
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+div#search-results {
+    background: #333333;
+    margin-left: 30px;
+    border-radius: 7px;
+    box-shadow: none !important;
+    border: none;
+}
+.search-result-previews {
+    border-left-color: #232323;
+}
