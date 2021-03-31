@@ -1,9 +1,7 @@
 ---
 layout: default
-title:  "Account Management"
-date:   2021-03-31 01:58:53 -0400
+title:  "Getting Started"
 nav_order: 1
-author: Korbs
 parent: General
 grand_parent: Minecraft
 permalink: /minecraft/general/getting-started/

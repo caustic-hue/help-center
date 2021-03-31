@@ -1,9 +1,7 @@
 ---
 layout: default
 title:  "Setting Up"
-date:   2021-03-31 01:58:53 -0400
 nav_order: 1
-author: Korbs
 parent: Software
 grand_parent: FalixNodes
 permalink: /falixnodes/software/setting-up/

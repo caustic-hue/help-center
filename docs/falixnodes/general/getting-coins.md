@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  "Getting Coins"
-date:   2021-03-31 01:58:53 -0400
-author: Ash777
 parent: General
 grand_parent: FalixNodes
 permalink: /falixnodes/general/getting-coins

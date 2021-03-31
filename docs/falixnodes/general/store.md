@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  "Buying Items from the Store"
-date:   2021-03-31 01:58:53 -0400
-author: Ash777
 parent: General
 grand_parent: FalixNodes
 permalink: /falixnodes/general/buying-items-from-the-store

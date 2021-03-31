@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  "Account Management"
-date:   2021-03-31 01:58:53 -0400
-author: Korbs
 parent: General
 grand_parent: FalixNodes
 permalink: /falixnodes/general/account-management/

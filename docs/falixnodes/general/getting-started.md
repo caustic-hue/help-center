@@ -1,9 +1,7 @@
 ---
 layout: default
 title:  "Getting Started"
-date:   2021-03-31 01:58:53 -0400
 nav_order: 1
-author: Korbs
 parent: General
 grand_parent: FalixNodes
 permalink: /falixnodes/general/getting-started/
