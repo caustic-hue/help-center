@@ -8,7 +8,8 @@ permalink: /falixnodes/software/setting-up/
 tags: falixnodes software download
 ---
 
-> This article is still a work in progress
+In Progress
+{: .label .label-yellow }
 
 # Installing Process
 FalixNodes Software is built on Electron, meaning it's cross-platform and supports Windows, macOS, Linux, and ChromeOS. The installation is easy to follow and you should of the software installed within at least 2 minutes or less(depending on your internet speed).

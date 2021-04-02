@@ -14,6 +14,24 @@ div#main-header {
     background: transparent;
     border: none;
 }
+footer i {
+  color: white;
+}
+a#edit-this-page {
+  width: max-content;
+}
+footer p {
+  cursor: default;
+}
+footer p {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+  width: 100px;
+}
+footer i {
+  margin-left: 5px;
+}
 .side-bar {
     background: #333333;
     border: none;
@@ -25,7 +43,9 @@ a.site-title.lh-tight {
 .site-header {
     border: none;
 }
-
+hr {
+  display: none;
+}
 .nav-list .nav-list-item .nav-list-link:hover, .nav-list .nav-list-item .nav-list-link.active {
     background-image: none;
     color: var(--accent-color);
