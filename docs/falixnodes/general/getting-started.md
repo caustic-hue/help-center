@@ -18,11 +18,7 @@ On our Client Panel, you'll see we have two login options. One option will log i
 ## Keeping a Safe Community
 By being on our Discord server, you're to follow our rules and Discord's [Terms of Service](#) to keep our members safe!
 ## Creating a Ticket
-To create a ticket, go to the #create-ticket channel which will found at the bottom of the channels list under the Support category. Use the following command below and send to chat with a reason:
-
-```
--new [ticket reason]
-```
+To create a ticket, go to the #ticket-center channel which will found at the bottom of the channels list under the Support category. React with 🎫️ to create a new ticket.
 
 Once our bot creates a ticket for you, a new channel should of visible to you at the bottom of the channels list. You'll use to this channel to talk to our support team and staff members. Only our support team and staff members will see your ticket and no one else, so any private information provided by you is safe.
 

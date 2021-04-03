@@ -5,11 +5,13 @@ nav_order: 1
 parent: Software
 grand_parent: FalixNodes
 permalink: /falixnodes/software/setting-up/
-tags: falixnodes software download
+tags: falixnodes software download troubleshoot troubleshooting faq update updating
 ---
 
 In Progress
 {: .label .label-yellow }
+
+<iframe style="width: 100%; height: 400px; border: none; pointer-events: none; background: #333333; border-radius: 10px;"  src="../../../assets/538.html"></iframe>
 
 # Installing Process
 FalixNodes Software is built on Electron, meaning it's cross-platform and supports Windows, macOS, Linux, and ChromeOS. The installation is easy to follow and you should of the software installed within at least 2 minutes or less(depending on your internet speed).
@@ -19,7 +21,7 @@ You can install the software easily in the Microsoft Store on Windows 10\. Just 
 
 or you can click here:
 
-<a href="https://www.microsoft.com/en-us/p/falixnodes-software/9p5mmnfs825p"><img width="250px" src="https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png"></a>
+<a href="https://www.microsoft.com/en-us/p/falixnodes-software/9p5mmnfs825p"><img width="135px" src="https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png"></a>
 
 ## macOS
 

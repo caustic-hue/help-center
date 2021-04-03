@@ -20,6 +20,13 @@ footer i {
 a#edit-this-page {
   width: max-content;
 }
+td {
+  background: #333333;
+  border: none;
+}
+thead th {
+  border-bottom: none;
+}
 footer p {
   cursor: default;
 }
