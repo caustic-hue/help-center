@@ -7,8 +7,8 @@ nav_order: 0
 
 # Welcome to FalixNodes Help Center
 ## Getting Started Articles
-* [FalixNodes](https://help.falixnodes.net/falixnodes/getting-started)
-* [Minecraft](https://help.falixnodes.net/minecraft/getting-started)
+* [FalixNodes](https://help.falixnodes.net/falixnodes/general/getting-started)
+* [Minecraft](https://help.falixnodes.net/minecraft/general/getting-started)
 
 ## YouTube Tutorial
 <iframe width="300" height="175" src="https://www.youtube.com/embed/yHu4MKnegPc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
