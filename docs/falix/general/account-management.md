@@ -2,18 +2,18 @@
 layout: default
 title:  "Account Management"
 parent: General
-grand_parent: FalixNodes
-permalink: /falixnodes/general/account-management/
-tags: falixnodes
+grand_parent: Falix
+permalink: /falix/general/account-management/
+tags: Falix
 ---
 # Your Account
 ## Identifying
-On FalixNodes, we identify accounts using their Discord ID, this is used to search for users on our staff admin panel.
+On Falix, we identify accounts using their Discord ID, this is used to search for users on our staff admin panel.
 
 To get your Discord ID on Discord, please enable developer mode in your appearance settings. Head over to the account settings, click on the 3 dots button on the right side and click Copy ID.
 
 ## Transferring
-It is currently not possible to transfer your FalixNodes' server and account to another Discord account. We also don't allow multiple accounts, so using another Discord account on our platform will be detected as an alt account. You should stay with your current Discord account and continue to use it to log in to our service.
+It is currently not possible to transfer your Falix' server and account to another Discord account. We also don't allow multiple accounts, so using another Discord account on our platform will be detected as an alt account. You should stay with your current Discord account and continue to use it to log in to our service.
 
 # Managing
 ## Resetting Your Password

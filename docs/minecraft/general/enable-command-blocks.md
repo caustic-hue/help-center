@@ -36,8 +36,8 @@ If you would like to give someone else a command block, which must be a operater
 /give <username> command_block
 ```
 
-If you want to give someone a command block from the console, in the [Game Panel](https://panel.falixnodes.net), then use:
+If you want to give someone a command block from the console, in the [Game Panel](https://panel.falix.gg), then use:
 ```
 give <username> command_block
 ```
-Don't use `/` when using the console in the [Game Panel](https://panel.falixnodes.net)
+Don't use `/` when using the console in the [Game Panel](https://panel.falix.gg)

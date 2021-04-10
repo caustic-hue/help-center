@@ -1,4 +1,4 @@
-# FalixNodes Help Center - Design Refresh
+# Falix Help Center - Design Refresh
 ![image](https://i.imgur.com/YKRFCSL.png)
 
 A new design of the help center is being worked on along with adding a few other things like filters, search, author, and options(Copy Link, Report, and Edit)
@@ -26,7 +26,7 @@ title:  "Article Title"
 parent: Sub-Category
 grand_parent: Category
 permalink: /category/sub-category/article-title/
-tags: falixnodes
+tags: Falix
 ---
 ```
 

@@ -2,10 +2,10 @@
 layout: default
 title: General
 nav_order: 3
-parent: FalixNodes
+parent: Falix
 has_children: true
-permalink: /falixnodes/general
+permalink: /falix/general
 ---
 
-# FalixNodes
+# Falix
 ## General

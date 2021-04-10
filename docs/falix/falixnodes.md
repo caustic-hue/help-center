@@ -1,9 +1,9 @@
 ---
 layout: default
-title: FalixNodes
+title: Falix
 nav_order: 3
 has_children: true
-permalink: /falixnodes/
+permalink: /falix/
 ---
 
-# FalixNodes
+# Falix

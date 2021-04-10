@@ -3,9 +3,9 @@ layout: default
 title:  "Setting Up"
 nav_order: 1
 parent: Software
-grand_parent: FalixNodes
-permalink: /falixnodes/software/setting-up/
-tags: falixnodes software download troubleshoot troubleshooting faq update updating
+grand_parent: Falix
+permalink: /falix/software/setting-up/
+tags: Falix software download troubleshoot troubleshooting faq update updating
 ---
 
 In Progress
@@ -14,20 +14,20 @@ In Progress
 <iframe style="width: 100%; height: 400px; border: none; pointer-events: none; background: #333333; border-radius: 10px;"  src="../../../assets/538.html"></iframe>
 
 # Installing Process
-FalixNodes Software is built on Electron, meaning it's cross-platform and supports Windows, macOS, Linux, and ChromeOS. The installation is easy to follow and you should of the software installed within at least 2 minutes or less(depending on your internet speed).
+Falix Software is built on Electron, meaning it's cross-platform and supports Windows, macOS, Linux, and ChromeOS. The installation is easy to follow and you should of the software installed within at least 2 minutes or less(depending on your internet speed).
 
 ## Windows 10
-You can install the software easily in the Microsoft Store on Windows 10\. Just search "FalixNodes" and the software should show up. Select it and click install.
+You can install the software easily in the Microsoft Store on Windows 10\. Just search "Falix" and the software should show up. Select it and click install.
 
 or you can click here:
 
-<a href="https://www.microsoft.com/en-us/p/falixnodes-software/9p5mmnfs825p"><img width="135px" src="https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png"></a>
+<a href="https://www.microsoft.com/en-us/p/Falix-software/9p5mmnfs825p"><img width="135px" src="https://developer.microsoft.com/en-us/store/badges/images/English_get-it-from-MS.png"></a>
 
 ## macOS
 
 Due to restriction with Apple, the software is not available in the App Store, but we have provided a DMG option instead.
 
-If you're using macOS, click the download button on the software website. A DMG file will be provided. Open the DMG file and simply drag the FalixNodes app into the Applications folder.
+If you're using macOS, click the download button on the software website. A DMG file will be provided. Open the DMG file and simply drag the Falix app into the Applications folder.
 
 ## Linux
 On Linux, there are many ways to install software like apt, [deb](https://en.wikipedia.org/wiki/Deb_(file_format)), [rpm](https://en.wikipedia.org/wiki/RPM_Package_Manager), [pacman](https://en.wikipedia.org/wiki/Arch_Linux#Pacman), etc. We've chosen the Snapstore for easy distrubing and to make it easy to add auto updating.
@@ -38,23 +38,23 @@ Also note, if you're using Fedora, replace `apt` with `dnf` instead.
 
 ```
 sudo apt install snapd
-sudo snap install falixnodes
+sudo snap install Falix
 ```
 
 # Updating
 ## Windows 10
-Since FalixNodes Software is available in the Microsoft Store, you can easily manage updates.
+Since Falix Software is available in the Microsoft Store, you can easily manage updates.
 
 [Learn how to updates app on Windows 10](https://support.microsoft.com/en-us/account-billing/get-updates-for-apps-and-games-in-microsoft-store-a1fe19c0-532d-ec47-7035-d1c5a1dd464f)
 
 ## macOS
-Auto updating is still not available for macOS users, you'll need to manually install new updates. When a new update is available, just re-download FalixNodes and install the newer version.
+Auto updating is still not available for macOS users, you'll need to manually install new updates. When a new update is available, just re-download Falix and install the newer version.
 
 ## Linux
-Since FalixNodes Software is available in the Snapstore, you can easily update. For some distros, the update might be available through the app store included with your distro, if this isn't the case, try the following command:
+Since Falix Software is available in the Snapstore, you can easily update. For some distros, the update might be available through the app store included with your distro, if this isn't the case, try the following command:
 
 ```
-sudo snap refresh falixnodes
+sudo snap refresh Falix
 ```
 
 # Uninstalling Process
@@ -68,9 +68,9 @@ If you've misclicked on an advertisement in the Game Panel, click the back butto
 ## Software is not opening
 For Linux users, assuming you installed from Snap, Snap apps can take a moment to open as they're being sandboxed. The first boot will take longer. If you're not using Snap and choice to build the software instead, there may of been an error. Please read and troubleshoot any errors that show up on in your terminal.
 
-For Windows users, please check your task manager and see if FalixNodes Software is running. Since it's built on Electron, you may see a few instances of it running. You can kill the process and try again, if it's not working on the second try, you can try re-installing the software.
+For Windows users, please check your task manager and see if Falix Software is running. Since it's built on Electron, you may see a few instances of it running. You can kill the process and try again, if it's not working on the second try, you can try re-installing the software.
 
-## FalixNodes Software caused BSOD on Windows
+## Falix Software caused BSOD on Windows
 This issue has been reported a few times, but has not ben seen by Korbs(developer). If for whatever reason this does happen, please let us know.
 
 ## The sidebar is completely transparent
@@ -103,12 +103,12 @@ We're not sure what's causing the issue either, please try installing an older v
 npm install electron-builder@20.0.0
 ```
 
-Electron Builder v20 still has all the features we need to build FalixNodes Software, with no issues.
+Electron Builder v20 still has all the features we need to build Falix Software, with no issues.
 
 ## Appx file won't open
 If you've built a APPX file on Windows 7 or Windows 8.1, this file can't be used. APPX file is built for Windows 10 only.
 
-[What's an APPX file?](https://help.falixnodes.net/article/falixnodes/software/faq-for-developers/)
+[What's an APPX file?](https://help.falix.gg/article/falix/software/faq-for-developers/)
 
 ## Appx file won't let me install on Windows 10
 We recommend that you actually EXE format instead of APPX. Please change the target under Windows to "nsis". NSIS will provide a EXE setup file.
@@ -118,7 +118,7 @@ If you want to use Appx, keep reading:
 Assuming you've tried to build a Appx file with Electron Builder, we didn't use this. We use Electron Windows Store dependency instead, we use the following command to build:
 
 ```
-electron-windows-store --input-directory C:\Users\YOURUSERNAMEHERE\Documents\Desktop-App\dist\win-unpacked  --output-directory C:\FalixNodes-Software\ --package-version 2.3.31.1 --package-name falixnodes --publisher-display-name "Korbs Studio" --identity-name "32203KorbsStudio.FalixNodesSoftware" --package-display-name "FalixNodes Software" --assets C:\Users\YOURUSERNAMEHERE\Documents\assets
+electron-windows-store --input-directory C:\Users\YOURUSERNAMEHERE\Documents\Desktop-App\dist\win-unpacked  --output-directory C:\Falix-Software\ --package-version 2.3.31.1 --package-name Falix --publisher-display-name "Korbs Studio" --identity-name "32203KorbsStudio.FalixSoftware" --package-display-name "Falix Software" --assets C:\Users\YOURUSERNAMEHERE\Documents\assets
 ```
 
 You'll need to setup and change some of these paths and download assets for the Windows 10 version. Also, please do use Electron Builder to unpack the app(usually creates a win-unpacked folder)

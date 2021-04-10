@@ -3,16 +3,16 @@ layout: default
 title:  "Getting Started"
 nav_order: 1
 parent: General
-grand_parent: FalixNodes
-permalink: /falixnodes/general/getting-started/
-tags: falixnodes
+grand_parent: Falix
+permalink: /falix/general/getting-started/
+tags: Falix
 ---
 # Signing Up
 ## Sighing up for Discord
 We use Discord as our preferred authorization method, you're required to register an account on Discord. To register an account on Discord, you'll need to provide an email, username, password for Discord along with setting your date of birth. After filling in the required information, check your email inbox for a verification email and verify your account.
 
-## Signing up for FalixNodes
-On our Client Panel, you'll see we have two login options. One option will log in to FalixNodes using your Discord account that will have offers, which will make you join other Discord servers for extra resources. The other option is the same, but will not have options and won't make you join other Discord servers. Choose these options to sign up for FalixNodes. Once done, you should be on our Client Panel and you should also see our server on your Discord.
+## Signing up for Falix
+On our Client Panel, you'll see we have two login options. One option will log in to Falix using your Discord account that will have offers, which will make you join other Discord servers for extra resources. The other option is the same, but will not have options and won't make you join other Discord servers. Choose these options to sign up for Falix. Once done, you should be on our Client Panel and you should also see our server on your Discord.
 
 # Being Part of our Discord Server
 ## Keeping a Safe Community
