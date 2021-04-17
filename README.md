@@ -1,5 +1,5 @@
 # Falix Help Center - Design Refresh
-![image](https://i.imgur.com/YKRFCSL.png)
+![image](https://i.imgur.com/UVFchYV.png)
 
 A new design of the help center is being worked on along with adding a few other things like filters, search, author, and options(Copy Link, Report, and Edit)
 
@@ -37,4 +37,30 @@ We use [Cloudflare Pages](https://pages.cloudflare.com/) to host the Help Center
 
 Your edit will be reviewed by [Korbs](https://github.com/KorbsStudio/) along with your code to check for any syntax error.
 
-*We use the [Just the Docs](https://pmarsceill.github.io/just-the-docs/docs/ui-components) theme with slight modifications to styling.*
+*We use the [Just the Docs](https://pmarsceill.github.io/just-the-docs/docs/ui-components) theme with [slight modifications to styling](https://github.com/FalixNodes-Software/help-center/blob/main/_sass/custom/custom.scss).*
+
+# Building
+If you're interested in learning on how to build the Help Center locally, maybe to preview that your article does show up properly, just follow the instructions below.
+
+Since the Help Center is powered by Jeykll, you'll need to install [Ruby](https://www.ruby-lang.org/en/) for your operating system.
+ - [Download for Windows](https://rubyinstaller.org/)
+ - [Download for macOS](https://www.ruby-lang.org/en/downloads/)
+ - [Install Instructions for Linux](https://www.ruby-lang.org/en/documentation/installation/#package-management-systems)
+
+After installation of Ruby, run the following commands:
+*NOTE: Use `sudo` on Linux
+```
+gem install bundler jekyll
+```
+
+Then change directory to the help center, and use:
+```
+gem install just-the-docs
+```
+
+To run a localhost server, run:
+```
+jekyll serve
+```
+
+After using `jekyll serve`, try going to http://localhost:4000/.
