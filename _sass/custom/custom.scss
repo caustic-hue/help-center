@@ -1,8 +1,8 @@
 :root {
-    --accent-color: #6B5FD3;
+    --accent-color: #2970CC;
 }
 body {
-    background: #232323;
+    background: #121E2C;
     color: white;
 }
 h1 {color: white;}
@@ -40,7 +40,7 @@ footer i {
   margin-left: 5px;
 }
 .side-bar {
-    background: #333333;
+    background: #0B1726;
     border: none;
 }
 a.site-title.lh-tight {
@@ -75,18 +75,18 @@ input#search-input {
     color: white;
 }
 figure.highlight {
-    background: #333333;
+    background: #0B1726;
 }
 code.language-ruby {
     background: transparent;
 }
 pre {
-    background: #333333;
+    background: #0B1726;
 }
 
 code.language-plaintext.highlighter-rouge {
     padding: 2px 5px 0px 5px;
-    background: #333333;
+    background: #0B1726;
     border: none;
 }
 
@@ -102,7 +102,7 @@ code.language-plaintext.highlighter-rouge {
 }
 
 div#search-results {
-    background: #333333;
+    background: #0B1726;
     margin-left: 30px;
     border-radius: 7px;
     box-shadow: none !important;
