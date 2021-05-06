@@ -30,16 +30,9 @@ Due to restriction with Apple, the software is not available in the App Store, b
 If you're using macOS, click the download button on the software website. A DMG file will be provided. Open the DMG file and simply drag the Falix app into the Applications folder.
 
 ## Linux
-On Linux, there are many ways to install software like apt, [deb](https://en.wikipedia.org/wiki/Deb_(file_format)), [rpm](https://en.wikipedia.org/wiki/RPM_Package_Manager), [pacman](https://en.wikipedia.org/wiki/Arch_Linux#Pacman), etc. We've chosen the Snapstore for easy distrubing and to make it easy to add auto updating.
+On Linux, there are many ways to install software like apt, [deb](https://en.wikipedia.org/wiki/Deb_(file_format)), [rpm](https://en.wikipedia.org/wiki/RPM_Package_Manager), [pacman](https://en.wikipedia.org/wiki/Arch_Linux#Pacman), etc. 
+Simply go to our [software website](https://software.falixnodes.net), click Download, then select your distro.
 
-Use the following commands to install Snap on your distro(Snap comes pre-installed on Pop OS, Fedora, and Ubuntu):
-
-Also note, if you're using Fedora, replace `apt` with `dnf` instead.
-
-```
-sudo apt install snapd
-sudo snap install Falix
-```
 
 # Updating
 ## Windows 10
@@ -49,13 +42,11 @@ Since Falix Software is available in the Microsoft Store, you can easily manage 
 
 ## macOS
 Auto updating is still not available for macOS users, you'll need to manually install new updates. When a new update is available, just re-download Falix and install the newer version.
+Uninstalling is not required, when manually installing new updates, it will overwrite the exiting version.
 
 ## Linux
-Since Falix Software is available in the Snapstore, you can easily update. For some distros, the update might be available through the app store included with your distro, if this isn't the case, try the following command:
-
-```
-sudo snap refresh Falix
-```
+Auto updating is no longer available for LInux users, you'll need to manually install new updates. When a new update is available, just re-download Falix and install the newer version.
+Uninstalling is not required, when manually installing new updates, it will overwrite the exiting version.
 
 # Uninstalling Process
 
@@ -66,7 +57,7 @@ If you've misclicked on an advertisement in the Client Panel, there is no way to
 If you've misclicked on an advertisement in the Game Panel, click the back button. If for whatever reason this isn't working, click the kill button(x button) and load the panel again.
 
 ## Software is not opening
-For Linux users, assuming you installed from Snap, Snap apps can take a moment to open as they're being sandboxed. The first boot will take longer. If you're not using Snap and choice to build the software instead, there may of been an error. Please read and troubleshoot any errors that show up on in your terminal.
+For Linux users, assuming you installed from Snap, Snap apps can take a moment to open as they're being sandboxed. The first boot will take longer. Please read and troubleshoot any errors that show up on in your terminal.
 
 For Windows users, please check your task manager and see if Falix Software is running. Since it's built on Electron, you may see a few instances of it running. You can kill the process and try again, if it's not working on the second try, you can try re-installing the software.
 
