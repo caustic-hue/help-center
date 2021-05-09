@@ -66,9 +66,6 @@ a.nav-list-link {
 a.nav-list-expander {
     color: white !important;
 }
-footer.site-footer {
-    display: none;
-}
 input#search-input {
     background: transparent;
     color: white;
@@ -225,4 +222,20 @@ th#white_color {
   position: absolute;
   right: 43px;
   margin-top: 5px;
+}
+
+a#gfui {
+  display: block;
+  background: none;
+  margin-bottom: 7px;
+}
+
+ui#in_footer a#gfui:not([class]) {
+  background: none;
+}
+
+
+footer p {
+    display: block;
+    width: inherit;
 }
