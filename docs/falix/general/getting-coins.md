@@ -15,5 +15,5 @@ You can AFK on our Falixcoins earning website to earn coins. [https://client.fal
 ## Referring
 You can refer your friend to register through your affiliate for 50 coins per user, you can find your affiliate link on [https://client.falix.gg/earn/affiliate](https://client.falix.gg/earn/affiliate).
 
-## Watching Ads
-You can Watch Ads on our Falixcoins application (android only)to earn 5 coins per ad viewed. You can download the app from [https://play.google.com/store/apps/details?id=net.Falix.Falixcoins](https://play.google.com/store/apps/details?id=net.Falix.Falixcoins).
+## Mining
+You can mine FalixCoins with our own app. Visit https://github.com/FalixInc/FalixCoins-Miner/releases/tag/1.0 to download and learn how to use it.
