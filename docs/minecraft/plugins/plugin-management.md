@@ -7,9 +7,6 @@ permalink: /minecraft/plugins/management/
 tags: minecraft configure configuring installing plugins java
 ---
 
-In Progress
-{: .label .label-yellow }
-
 # Explanation
 ## What are They?
 Plugins are similar to browser extensions in Minecraft. These are used by third-party developers to write additional code and plug it into the server. Since they do not change the game itself, as mods do, they are more constrained in what they can do. This, however, implies that they only need to be installed on the server's side. There are no changes required in your own game files to achieve this result.
