@@ -3,7 +3,7 @@ layout: default
 title:  "Plugin Management"
 parent: Plugins
 grand_parent: Minecraft
-permalink: /minecraft/plugins/discordsrv/
+permalink: /minecraft/plugins/management/
 tags: minecraft configure configuring installing plugins java
 ---
 
