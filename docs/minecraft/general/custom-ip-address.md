@@ -23,7 +23,7 @@ Here's a list of where you can register a paid domain:
 * [Google](https://domains.google/)
 * [Hover](https://www.hover.com/)
 
-If you're wanting to register a free domain, please use Freenom.
+If you're wanting to register a free domain, please use [Freenom](https://www.freenom.com/).
 
 ### Quick FAQ for Domains
 **Do I own the domain permanently?**
@@ -60,6 +60,7 @@ If you're unsure how to change your nameservers, select the help article for thi
 * [bluehost](https://www.bluehost.com/help/article/custom-nameservers)
 * [Google](https://support.google.com/domains/answer/3290309?hl=en)
 * [Hover](https://help.hover.com/hc/en-us/articles/217282477--Changing-your-domain-nameservers)
+* [Freenom](https://my.freenom.com/knowledgebase.php?action=displayarticle&id=3)
 
 Once done, wait around 20 - 45 minutes for Cloudflare to confirm your site has been added.
 
