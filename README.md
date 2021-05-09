@@ -56,6 +56,7 @@ gem install bundler jekyll
 Then change directory to the help center, and use:
 ```
 gem install just-the-docs
+bundle install
 ```
 
 To run a localhost server, run:
