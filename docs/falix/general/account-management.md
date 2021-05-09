@@ -13,7 +13,7 @@ On Falix, we identify accounts using their Discord ID, this is used to search fo
 To get your Discord ID on Discord, please enable developer mode in your appearance settings. Head over to the account settings, click on the 3 dots button on the right side and click Copy ID.
 
 ## Transferring
-It is currently not possible to transfer your Falix' server and account to another Discord account. We also don't allow multiple accounts, so using another Discord account on our platform will be detected as an alt account. You should stay with your current Discord account and continue to use it to log in to our service.
+It is currently not possible to transfer your Falix server and account to another Discord account. We also don't allow multiple accounts, so using another Discord account on our platform will be detected as an alt account. You should stay with your current Discord account and continue to use it to log in to our service.
 
 # Managing
 ## Resetting Your Password
