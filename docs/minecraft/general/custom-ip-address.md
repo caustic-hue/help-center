@@ -41,7 +41,7 @@ Once the domain has expired, it will be available again for purchase to the publ
 
 ## Adding to Cloudflare
 Why Cloudflare? You're required to use an SRV Record which some domain providers like Freenom don't offer in their DNS settings. 
-What is DNS? Learn about that here.
+What is DNS? Learn about that [here](https://www.cloudflare.com/learning/dns/what-is-dns/).
 
 Create a Cloudflare account, afterwards, click Add Site.
 Add your domain like __example.com__, do not add *http://*.
