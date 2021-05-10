@@ -5,10 +5,10 @@ nav_order: 1
 parent: General
 grand_parent: Minecraft
 permalink: /minecraft/general/getting-started/
-tags: minecraft message motd color create creating configure configuring ip address connecting server icon installing
+tags: minecraft message motd color create creating configure configuring ip address connecting server icon installing eula
 ---
 # Creating a Server
-To create a Minecraft Java server, go to your Client Panel. On the left sidebar, choose Create Server. Type in all required information like server name, memory amount, and server location. Once done, click the Create button and wait at least a minute in the Client Panel for the new server to be created for your account. Now, in the [Game Panel](https://panel.falix.gg/) you should see the new server on your server list. If the server list indicates that it is still installing, wait at least 2 to 5 minutes for the installation to be complete. If the installation is taking longer than usual (over 5 to 10 minutes or more), head back to your [Client Panel](https://client.falix.gg/) and delete, then re-create the server. Select your new server and go to the Console tab, usually already selected by default. Click the Start button, located in the upper left corner of the Console tab. You're going to be selecting which type of server you want during the first startup of your new server. In this case, we're creating a Minecraft Java server, to select Minecraft Java, then the type of Minecraft Java server that you want like Vanilla or PaperMC, last thing is to select the version of Minecraft Java you want to play on.
+To create a Minecraft Java server, go to your Client Panel. On the left sidebar, choose Create Server. Type in all required information like server name, memory amount, and server location. Once done, click the Create button and wait at least a minute in the Client Panel for the new server to be created for your account. Now, in the [Game Panel](https://panel.falix.gg/) you should see the new server on your server list. If the server list indicates that it is still installing, wait at least 2 to 5 minutes for the installation to be complete. If the installation is taking longer than usual (over 5 to 10 minutes or more), head back to your [Client Panel](https://client.falix.gg/) and delete, then re-create the server. Select your new server and go to the Console tab, usually already selected by default. Click the Start button, located in the upper left corner of the Console tab. You're going to be selecting which type of server you want during the first startup of your new server. In this case, we're creating a Minecraft Java server, to select Minecraft Java, then the type of Minecraft Java server that you want like Vanilla or PaperMC, and select the version of Minecraft Java you want to play on. Your server should've crashed with the exit code "0" and with an error message that says "`You need to agree to the EULA in order to run the server. Go to eula.txt for more info.`". You will have to accept to [Mojang's EULA](https://account.mojang.com/documents/minecraft_eula) in order to start your server.
 
 # Choosing Your Server Java Version
 <!-- # What is Java? (An explantion for noobs will be added later on) -->
@@ -31,6 +31,10 @@ To make a Java version the default one, so that you don't need to select it ever
 Now, go back to your console, start your server and you'll see it using the Java version you set.
 
 > If the above does not work, manually delete the `.jabba` folder and restart your server.
+
+# Accepting Mojang's EULA
+<!-- Who is Mojang? (An explantion for noobs will be added later on) -->
+In order to start your server, you must accept [Mojang's EULA](https://account.mojang.com/documents/minecraft_eula). If you agree to it, go to your server's file manager, find and open the file "`eula.txt`", find the "`eula`" string and set it to `true`.
 
 # Configuring
 ## Message of the Day
