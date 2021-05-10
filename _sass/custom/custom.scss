@@ -239,3 +239,61 @@ footer p {
     display: block;
     width: inherit;
 }
+
+
+
+
+
+
+
+
+/* Containers that can open and close, why not? lmao */
+button#open_ColorMC {
+  width: 100%;
+  background: #0b1726;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 0px 7px 20px;
+  text-align: left;
+  font-size: 14px;
+  transition: 0.4s filter;
+}
+
+button#open_ColorMC:hover {
+  filter: brightness(1.5);
+  transition: 0.4s filter;
+  cursor: pointer;
+}
+
+button#close_ColorMC {
+  width: 100%;
+  background: #0b1726;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 0px 7px 20px;
+  text-align: left;
+  font-size: 14px;
+  transition: 0.4s filter;
+  display: none;
+}
+
+button#close_ColorMC:hover {
+  filter: brightness(1.5);
+  transition: 0.4s filter;
+  cursor: pointer;
+}
+
+i.fas.fa-angle-up {
+  position: absolute;
+  right: 50px;
+}
+i.fas.fa-angle-down {
+  position: absolute;
+  right: 50px;
+}
+
+div#cc_ColorMC {
+  display: none;
+}

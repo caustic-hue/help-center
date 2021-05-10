@@ -40,173 +40,96 @@ To configure MOTD(Message of the Day), the setting for this is usually found in 
 
 If you're interested in changing text colors, use these color codes:
 
-<table>
-
-<tbody>
-
-<tr>
-
-<th id="black_color">COLOR_BLOCK</th>
-
-<th>Black</th>
-
-<th>\u00A70</th>
-
-</tr>
-
-<tr>
-
-<th id="dark_blue_color">COLOR_BLOCK</th>
-
-<th>Dark Blue</th>
-
-<th>\u00A71</th>
-
-</tr>
-
-<tr>
-
-<th id="blue_color">COLOR_BLOCK</th>
-
-<th>Blue</th>
-
-<th>\u00A79</th>
-
-</tr>
-
-<tr>
-
-<th id="dark_green_color">COLOR_BLOCK</th>
-
-<th>Dark Green</th>
-
-<th>\u00A72</th>
-
-</tr>
-
-<tr>
-
-<th id="green_color">COLOR_BLOCK</th>
-
-<th>Green</th>
-
-<th>\u00A7a</th>
-
-</tr>
-
-<tr>
-
-<th id="dark_aqua_color">COLOR_BLOCK</th>
-
-<th>Dark Aqua</th>
-
-<th>\u00A73</th>
-
-</tr>
-
-<tr>
-
-<th id="aqua_color">COLOR_BLOCK</th>
-
-<th>Aqua</th>
-
-<th>\u00A7b</th>
-
-</tr>
-
-<tr>
-
-<th id="dark_red_color">COLOR_BLOCK</th>
-
-<th>Dark Red</th>
-
-<th>\u00A70</th>
-
-</tr>
-
-<tr>
-
-<th id="red_color">COLOR_BLOCK</th>
-
-<th>Red</th>
-
-<th>\u00A7c</th>
-
-</tr>
-
-<tr>
-
-<th id="dark_purple_color">COLOR_BLOCK</th>
-
-<th>Dark Purple</th>
-
-<th>\u00A75</th>
-
-</tr>
-
-<tr>
-
-<th id="gold_color">COLOR_BLOCK</th>
-
-<th>Gold</th>
-
-<th>\u00A76</th>
-
-</tr>
-
-<tr>
-
-<th id="yellow_color">COLOR_BLOCK</th>
-
-<th>Yellow</th>
-
-<th>\u00A7e</th>
-
-</tr>
-
-<tr>
-
-<th id="light_purple_color">COLOR_BLOCK</th>
-
-<th>Light Purple</th>
-
-<th>\u00A7d</th>
-
-</tr>
-
-<tr>
-
-<th id="gray_color">COLOR_BLOCK</th>
-
-<th>Gray</th>
-
-<th>\u00A77</th>
-
-</tr>
-
-<tr>
-
-<th id="dark_gray_color">COLOR_BLOCK</th>
-
-<th>Dark Gray</th>
-
-<th>\u00A78</th>
-
-</tr>
-
-<tr>
-
-<th id="white_color">COLOR_BLOCK</th>
-
-<th>White</th>
-
-<th>\u00A7f</th>
-
-</tr>
-
-</tbody>
-
-</table>
+<div id="color_table_mc" class="collapsable">
+    <button onclick="openMenu_ColorMC();" id="open_ColorMC">View Colors <i class="fas fa-angle-up"></i></button>
+    <button onclick="closeMenu_ColorMC();" id="close_ColorMC">Colors <i class="fas fa-angle-down"></i></button>
+    <div id="cc_ColorMC" class="collapsable_content">
+        <table>
+        <tbody>
+        <tr>
+        <th id="black_color">COLOR_BLOCK</th>
+        <th>Black</th>
+        <th>\u00A70</th>
+        </tr>
+        <tr>
+        <th id="dark_blue_color">COLOR_BLOCK</th>
+        <th>Dark Blue</th>
+        <th>\u00A71</th>
+        </tr>
+        <tr>
+        <th id="blue_color">COLOR_BLOCK</th>
+        <th>Blue</th>
+        <th>\u00A79</th>
+        </tr>
+        <tr>
+        <th id="dark_green_color">COLOR_BLOCK</th>
+        <th>Dark Green</th>
+        <th>\u00A72</th>
+        </tr>
+        <tr>
+        <th id="green_color">COLOR_BLOCK</th>
+        <th>Green</th>
+        <th>\u00A7a</th>
+        </tr>
+        <tr>
+        <th id="dark_aqua_color">COLOR_BLOCK</th>
+        <th>Dark Aqua</th>
+        <th>\u00A73</th>
+        </tr>
+        <tr>
+        <th id="aqua_color">COLOR_BLOCK</th>
+        <th>Aqua</th>
+        <th>\u00A7b</th>
+        </tr>
+        <tr>
+        <th id="dark_red_color">COLOR_BLOCK</th>
+        <th>Dark Red</th>
+        <th>\u00A70</th>
+        </tr>
+        <tr>
+        <th id="red_color">COLOR_BLOCK</th>
+        <th>Red</th>
+        <th>\u00A7c</th>
+        </tr>
+        <tr>
+        <th id="dark_purple_color">COLOR_BLOCK</th>
+        <th>Dark Purple</th>
+        <th>\u00A75</th>
+        </tr>
+        <tr>
+        <th id="gold_color">COLOR_BLOCK</th>
+        <th>Gold</th>
+        <th>\u00A76</th>
+        </tr>
+        <tr>
+        <th id="yellow_color">COLOR_BLOCK</th>
+        <th>Yellow</th>
+        <th>\u00A7e</th>
+        </tr>
+        <tr>
+        <th id="light_purple_color">COLOR_BLOCK</th>
+        <th>Light Purple</th>
+        <th>\u00A7d</th>
+        </tr>
+        <tr>
+        <th id="gray_color">COLOR_BLOCK</th>
+        <th>Gray</th>
+        <th>\u00A77</th>
+        </tr>
+        <tr>
+        <th id="dark_gray_color">COLOR_BLOCK</th>
+        <th>Dark Gray</th>
+        <th>\u00A78</th>
+        </tr>
+        <tr>
+        <th id="white_color">COLOR_BLOCK</th>
+        <th>White</th>
+        <th>\u00A7f</th>
+        </tr>
+        </tbody>
+        </table>
+    </div>
+</div>
 
 ## Server Icon
 The server icon helps indicate the branding of your Minecraft Java server, it's easy to set one. Simply create an icon that is 64x64 in resolution. Name the server icon as <u>server-icon.png</u> and add it to the root of your Minecraft Java server files.

@@ -1,7 +1,6 @@
 ---
 layout: default
 title:  "Enabling Command Blocks"
-nav_order: 1
 parent: General
 grand_parent: Minecraft
 permalink: /minecraft/general/enabling-command-blocks/

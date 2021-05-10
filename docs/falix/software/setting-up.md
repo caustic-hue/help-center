@@ -8,11 +8,6 @@ permalink: /falix/software/setting-up/
 tags: Falix software download troubleshoot troubleshooting faq update updating
 ---
 
-In Progress
-{: .label .label-yellow }
-
-<iframe style="width: 100%; height: 400px; border: none; pointer-events: none; background: #333333; border-radius: 10px;"  src="../../../assets/538.html"></iframe>
-
 # Installing Process
 Falix Software is built on Electron, meaning it's cross-platform and supports Windows, macOS, Linux, and ChromeOS. The installation is easy to follow and you should of the software installed within at least 2 minutes or less(depending on your internet speed).
 
