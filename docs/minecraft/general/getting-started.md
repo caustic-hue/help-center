@@ -10,6 +10,28 @@ tags: minecraft message motd color create creating configure configuring ip addr
 # Creating a Server
 To create a Minecraft Java server, go to your Client Panel. On the left sidebar, choose Create Server. Type in all required information like server name, memory amount, and server location. Once done, click the Create button and wait at least a minute in the Client Panel for the new server to be created for your account. Now, in the [Game Panel](https://panel.falix.gg/) you should see the new server on your server list. If the server list indicates that it is still installing, wait at least 2 to 5 minutes for the installation to be complete. If the installation is taking longer than usual (over 5 to 10 minutes or more), head back to your [Client Panel](https://client.falix.gg/) and delete, then re-create the server. Select your new server and go to the Console tab, usually already selected by default. Click the Start button, located in the upper left corner of the Console tab. You're going to be selecting which type of server you want during the first startup of your new server. In this case, we're creating a Minecraft Java server, to select Minecraft Java, then the type of Minecraft Java server that you want like Vanilla or PaperMC, last thing is to select the version of Minecraft Java you want to play on.
 
+# Choosing Your Server Java Version
+<!-- # What is Java? (An explantion for noobs will be added later on) -->
+## Minecraft Versions
+Use **Java 8** for Minecraft 1.12.2 or older
+
+Use **Java 11** for Minecraft 1.13 or newer
+
+## Set a Default Version
+> Make sure your server is turned off before doing the next steps.
+
+To make a Java version the default one, so that you don't need to select it every time you start your server, visit the [game panel](https://panel.falixnodes.net/), find and click on your server, find the "Startup" page on the top bar, scroll down to "Variables", then find "JAVA VERSION" and type the following for:
+
+## Java8
+`adopt@1.8.0-275`
+
+## Java11
+`adopt@1.11.0-9`
+
+Now, go back to your console, start your server and you'll see it using the Java version you set.
+
+> If the above does not work, manually delete the `.jabba` folder and restart your server.
+
 # Configuring
 ## Message of the Day
 Also known as MOTD, is the message that shows up below the server name on a multiplayer server list. Usually used to say what's new about the server and/or also displaying what version it supports. Sometimes also used to indicate what games it has to offer or just a short description of the server.
