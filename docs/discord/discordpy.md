@@ -6,9 +6,6 @@ permalink: /discord/discordpy/
 tags: Falix discord bot hosting python
 ---
 
-In Progress
-{: .label .label-yellow }
-
 # Creating And Hosting a Discord Bot Using Discord.py
 ### Creating a Bot
 First, simply go to [Discord's Developers Portal](https://discord.com/developers/applications) and login.Then, click on "New Application" in the top right corner of the screen, give it a name and click on "Create". After that, click on bot on the side menu, press add bot and confirm it.
