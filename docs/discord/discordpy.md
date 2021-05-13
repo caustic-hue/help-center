@@ -12,7 +12,7 @@ First, simply go to [Discord's Developers Portal](https://discord.com/developers
 You've sucessfully created the bot account!
 
 ## Coding a Bot
-To code your bot and to do the following steps you must have basic knowledge of Python and [Visual Studio Code](https://code.visualstudio.com/) installed on your PC.
+To code your bot and to do the following steps you must have basic knowledge of Python and a code editor installed on your PC.
 
 ### Prepare Everything
 * Install [Python](https://www.python.org/) (Latest version) on your local machine;
