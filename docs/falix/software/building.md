@@ -9,9 +9,11 @@ tags: Falix software building source code electron
 
 # Preparing to Build
 ## Requirements
- - NodeJS 14 or above
- - Python 3.6 or above
- - Visual C++ Redistributable (on Windows)
+ - [NodeJS](https://nodejs.org/en/) 14 or above
+ - [Python](https://www.python.org/) 3.6 or above
+ - [Visual Studio Community](https://visualstudio.microsoft.com/) (Install Desktop Development with C++)
+ - [Visual C++ Redistributable](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0) (on Windows)
+ - At least 8GB of storage
 
 ## Downloading Source Code
 ### Using Git
@@ -30,14 +32,18 @@ If you don't have Git or GitHub CLI installed, you can download it manually from
 
 # Building
 ## Installing Dependencies
-FalixNodes Software uses Electron and Glasstron to run the app and uses Electron Builder to package it up nicely. Run the following commands to install them:
+FalixNodes Software uses Electron and other required packages to run the app and uses Electron Builder to package it up nicely. Run the following commands to install them:
 ```
 npm install electron@9.4.4
-npm install glasstron@latest
-npm install electron-builder@20.0.0
+npm install electron-builder
+npm install node-abi
+npm install node-pty
+npm install os-utils
+npm install xterm
+npm install electron-rebuild
 ```
 
-The reason why we use Electron 9.4.4 is because there are errors like `BrowserWindow not defined` or similar errors in Electron 10 and up. Also we use Electron Builder 20 because newer versions won't install properly on our end.
+The reason why we use Electron 9.4.4 is because the new terminal built-in won't work properly on later versions of Elecron.
 
 Make sure Electron Builder are under `devDependencies` in the __package.json__ file or it will refuse to build.
 
