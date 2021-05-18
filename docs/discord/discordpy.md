@@ -26,7 +26,7 @@ Once discord.py is fully installed, open the index.py file and type the followin
 ```
 import discord
 from discord.ext import commands
-client = commands.Bot(command_prefix = '<your new bot prefix here>')
+client = commands.Bot(command_prefix = 'your new bot prefix here')
 ```
 
 We have defined the client. Now we will make an event for when the bot is ready. This will print a message in the console when the bot is ready to be used:
