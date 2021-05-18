@@ -34,14 +34,10 @@ If you don't have Git or GitHub CLI installed, you can download it manually from
 ## Installing Dependencies
 FalixNodes Software uses Electron and other required packages to run the app and uses Electron Builder to package it up nicely. Run the following commands to install them:
 ```
-npm install electron@9.4.4
-npm install electron-builder
-npm install node-abi
-npm install node-pty
-npm install os-utils
-npm install xterm
-npm install electron-rebuild
+npm install install
 ```
+
+Make sure Electron says `^9.4.4` in the __package.json__, everything else can be updated to it's latest version.
 
 The reason why we use Electron 9.4.4 is because the new terminal built-in won't work properly on later versions of Elecron.
 
