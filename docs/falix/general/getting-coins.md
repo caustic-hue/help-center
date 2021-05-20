@@ -9,8 +9,8 @@ tags: Falix
 
 There are 3 ways to get coins
 
-## AFK
-You can AFK on our Falixcoins earning website to earn coins. [https://client.falix.gg/earn/arc](https://client.falix.gg/earn/arc).
+## Watching Advertisements
+You can watch advertisements on our Android app to earn coins. Download it from [Play Store](https://play.google.com/store/apps/details?id=net.falixnodes.falixcoins).
 
 ## Referring
 You can refer your friend to register through your affiliate for 50 coins per user, you can find your affiliate link on [https://client.falix.gg/earn/affiliate](https://client.falix.gg/earn/affiliate).
