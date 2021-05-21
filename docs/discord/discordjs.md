@@ -2,7 +2,6 @@
 layout: default
 title:  "Discord.js"
 parent: Discord
-nav_order: 1
 permalink: /discord/nodejs-discord-bot/
 tags: Falix discord bot hosting nodejs js
 ---
