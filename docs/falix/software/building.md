@@ -9,9 +9,9 @@ tags: Falix software building source code electron
 
 # Preparing to Build
 ## Requirements
- - [NodeJS](https://nodejs.org/en/) 14 or above
- - [Python](https://www.python.org/) 3.6 or above
- - [Visual Studio Community](https://visualstudio.microsoft.com/) (Install Desktop Development with C++)
+ - [NodeJS](https://nodejs.org/en/) 14.16.0 or above
+ - [Python](https://www.python.org/) 3.9 or above
+ - [Visual Studio Community](https://visualstudio.microsoft.com/) (Install Desktop Development with C++) (on Windows)
  - [Visual C++ Redistributable](https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0) (on Windows)
  - At least 8GB of storage
 
