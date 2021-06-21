@@ -297,3 +297,40 @@ i.fas.fa-angle-down {
 div#cc_ColorMC {
   display: none;
 }
+
+.video_g {
+  background: #0b1726;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.video_g h1 {
+  font-size: 16px !important;
+  margin-left: 10px;
+  padding: 10px 10px 14px 10px;
+}
+.video_g button {
+  font-size: 12px;
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 16px;
+  background: #ff4545;
+  color: white;
+}
+.video_g video {
+  margin-bottom: -7px;
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  height: 100%;
+  margin-top: -19px;
+}
+
+.video_g_content {
+  display: flex;
+}
+
+.vt_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px 20px;
+}
