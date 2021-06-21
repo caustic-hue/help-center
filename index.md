@@ -17,9 +17,3 @@ nav_order: 0
  - [Configuring](https://help.falixnodes.net/minecraft/general/getting-started/#configuring)
  - [Setting Operators](https://help.falixnodes.net/minecraft/general/getting-started/#setting-operators)
  - [Connecting](https://help.falixnodes.net/minecraft/general/getting-started/#connecting)
-
-## YouTube Tutorial
-<iframe width="300" height="175" src="https://www.youtube.com/embed/BQe1osbKuKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="300" height="175" src="https://www.youtube.com/embed/qaTvzodQUFA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="300" height="175" src="https://www.youtube.com/embed/BjU7DU1_Sa0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="300" height="175" src="https://www.youtube.com/embed/FhJBvhLNJx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
