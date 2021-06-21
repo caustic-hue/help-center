@@ -17,6 +17,8 @@ Use **Java 8** for Minecraft 1.12.2 or older
 
 Use **Java 11** for Minecraft 1.13 or newer
 
+Use **Java 16** for Minecraft 1.17 or newer
+
 ## Set a Default Version
 > Make sure your server is turned off before doing the next steps.
 
@@ -27,6 +29,9 @@ To make a Java version the default one, so that you don't need to select it ever
 
 ## Java11
 `adopt@1.11.0-9`
+
+## Java 16
+`adopt@1.16.0-1`
 
 Now, go back to your console, start your server and you'll see it using the Java version you set.
 
