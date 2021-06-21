@@ -3,7 +3,6 @@ layout: table_wrappers
 ---
 
 <!DOCTYPE html>
-
 <html lang="{{ site.lang | default: 'en-US' }}">
 {% include head.html %}
 <body>
@@ -65,12 +64,13 @@ layout: table_wrappers
         {% include nav.html pages=site.html_pages %}
       {% endif %}
     </nav>
-    <footer id="in_footer" class="site-footer">
-      <ui style="list-style: none;">
+    <footer id="in_footer" class="site-footer">      <ui style="list-style: none;">
         <a id="gfui" href="https://client.falixnodes.net/UserAgreement.pdf" target="_blank">User Agreement</a>
         <a id="gfui" href="https://client.falixnodes.net/UserAgreement.pdf#Privacy-Policy" target="_blank">Privacy Policy</a>
         <a id="gfui" href="https://client.falixnodes.net/UserAgreement.pdf#Cookie-Policy" target="_blank">Cookie Policy</a>
         <a id="gfui" href="https://client.falixnodes.net/UserAgreement.pdf#Refund-Policy" target="_blank">Refund Policy</a>
+        <!-- <button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+        <script> const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); jtd.addEvent(toggleDarkMode, 'click', function(){ if (jtd.getTheme() === 'dark') { jtd.setTheme('light'); toggleDarkMode.textContent = 'Preview dark color scheme'; } else { jtd.setTheme('dark'); toggleDarkMode.textContent = 'Return to the light side'; } }); </script>   -->
         <p>© 2018 - 2021</p>
     </ui>
     </footer>
