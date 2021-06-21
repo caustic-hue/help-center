@@ -43,8 +43,6 @@ Uninstalling is not required, when manually installing new updates, it will over
 Auto updating is no longer available for LInux users, you'll need to manually install new updates. When a new update is available, just re-download Falix and install the newer version.
 Uninstalling is not required, when manually installing new updates, it will overwrite the exiting version.
 
-# Uninstalling Process
-
 # Troubleshooting
 ## Stuck on advertisement in Game Panel or Client Panel
 If you've misclicked on an advertisement in the Client Panel, there is no way to back out. Controls currently don't work properly in the Client tab, you'll need to reload the software. You can reload the software by pressing Ctrl R or clicking the reload button found at the bottom of the Settings tab.
@@ -59,9 +57,6 @@ For Windows users, please check your task manager and see if Falix Software is r
 ## Falix Software caused BSOD on Windows
 This issue has been reported a few times, but has not ben seen by Korbs(developer). If for whatever reason this does happen, please let us know.
 
-## The sidebar is completely transparent
-You can adjust the transpancy of the sidebar in your Apperances setting, select at least 60% - 100% for the opacity. If the setting isn't working for whatever reason, please report an issue
-
 # Troubleshooting - Building
 These are issues you may get while building the software from GitHub
 
@@ -71,16 +66,6 @@ Glasstron is widely used in the software, you'll need to make sure you've instal
 ```
 npm install glasstron
 ```
-
-## Electron and/or BrowserView not defined
-This will occur if you've choosen Electron v10 and up. Please only use Electron v9.0.0 - v9.4.3\. Run the following commands:
-
-```
-npm uninstall electron
-npm install electron@9.4.3
-```
-
-This issue is the reason why we use Electron v9.
 
 ## Electron Builder has errors while installing
 We're not sure what's causing the issue either, please try installing an older version of Electron Builder instead. In our case, we just use:

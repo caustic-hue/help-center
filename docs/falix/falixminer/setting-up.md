@@ -9,7 +9,7 @@ tags: Falix miner mining coins falixcoins download installing cpu gpu
 ---
 
 ## Requirements
- - [Curl](https://curl.se/)
+ - [Curl](https://curl.se/) (Linux)
 
 # Installing Process
 > Note: Since most anti-virus software would identify miners as a virus, you will need to whitelist the file or temporarily disable the anti-virus software. You can only mine either with the CPU or the GPU at the same time. Mining can only be performed on one device at a time.
