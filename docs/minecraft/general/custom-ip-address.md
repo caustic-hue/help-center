@@ -4,11 +4,8 @@ title:  "Registering a Custom IP Address"
 parent: General
 grand_parent: Minecraft
 permalink: /minecraft/general/custom-ip/
-tags: minecraft java bedrock ip address custom domain cloudflare dns srv port nameservers faq
+tags: minecraft java bedrock ip address custom domain cloudflare dns srv port nameservers faq namecheap freenom godaddy hover bluehost
 ---
-
-In Progress
-{: .label .label-yellow }
 
 # Registering a Domain
 Why a domain? A custom IP address like __hypixel.net__ is a domain and you need one to create a custom IP address for your Minecraft server. 
