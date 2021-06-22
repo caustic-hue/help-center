@@ -4,6 +4,9 @@ layout: table_wrappers
 
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+  <link id="color-scheme-setting" rel="stylesheet" href="./assets/css/just-the-docs-dark.css">
+</head>
 {% include head.html %}
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -41,7 +44,7 @@ layout: table_wrappers
 
   <div class="side-bar">
     <div class="site-header">
-      <a href="{{ '/' | absolute_url }}" class="site-title lh-tight">{% include title.html %}</a>
+      <a href="{{ '/' | absolute_url }}" class="site-title lh-tight"><img width="35" style="margin-right: 15px;" src="./assets/images/Icon.png"> Falix Help Center</a>
       <a href="#" id="menu-button" class="site-button">
         <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
       </a>
@@ -69,8 +72,21 @@ layout: table_wrappers
         <a id="gfui" href="https://client.falixnodes.net/UserAgreement.pdf#Privacy-Policy" target="_blank">Privacy Policy</a>
         <a id="gfui" href="https://client.falixnodes.net/UserAgreement.pdf#Cookie-Policy" target="_blank">Cookie Policy</a>
         <a id="gfui" href="https://client.falixnodes.net/UserAgreement.pdf#Refund-Policy" target="_blank">Refund Policy</a>
-        <!-- <button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
-        <script> const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); jtd.addEvent(toggleDarkMode, 'click', function(){ if (jtd.getTheme() === 'dark') { jtd.setTheme('light'); toggleDarkMode.textContent = 'Preview dark color scheme'; } else { jtd.setTheme('dark'); toggleDarkMode.textContent = 'Return to the light side'; } }); </script>   -->
+        <!-- <button onclick="colorSchemeSwitch('./assets/css/just-the-docs-light.css')" id="color-scheme-dark" class="btn toggle-ld-mode">Light Mode</button>
+        <button onclick="colorSchemeSwitch('./assets/css/just-the-docs-dark.css')" id="color-scheme-light" class="btn toggle-ld-mode">Dark Mode</button>
+        <script>
+          var setTheme = localStorage.getItem('color_scheme')
+          console.log('Color Scheme:', setTheme)
+          if (setTheme == null){
+              colorSchemeSwitch('./assets/css/just-the-docs-dark.css')
+          }else{
+              colorSchemeSwitch(setTheme)
+          }
+          function colorSchemeSwitch(sheet){
+            document.getElementById('color-scheme-setting').href = sheet
+            localStorage.setItem('color_scheme', sheet)
+          }
+        </script> -->
         <p>© 2018 - 2021</p>
     </ui>
     </footer>
