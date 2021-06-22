@@ -8,7 +8,23 @@ permalink: /minecraft/general/getting-started/
 tags: minecraft message motd color create creating configure configuring ip address connecting server icon installing eula
 ---
 # Creating a Server
-To create a Minecraft Java server, go to your Client Panel. On the left sidebar, choose Create Server. Type in all required information like server name, memory amount, and server location. Once done, click the Create button and wait at least a minute in the Client Panel for the new server to be created for your account. Now, in the [Game Panel](https://panel.falix.gg/) you should see the new server on your server list. If the server list indicates that it is still installing, wait at least 2 to 5 minutes for the installation to be complete. If the installation is taking longer than usual (over 5 to 10 minutes or more), head back to your [Client Panel](https://client.falix.gg/) and delete, then re-create the server. Select your new server and go to the Console tab, usually already selected by default. Click the Start button, located in the upper left corner of the Console tab. You're going to be selecting which type of server you want during the first startup of your new server. In this case, we're creating a Minecraft Java server, to select Minecraft Java, then the type of Minecraft Java server that you want like Vanilla or PaperMC, and select the version of Minecraft Java you want to play on. Your server should've crashed with the exit code "0" and with an error message that says "`You need to agree to the EULA in order to run the server. Go to eula.txt for more info.`". You will have to accept to [Mojang's EULA](https://account.mojang.com/documents/minecraft_eula) in order to start your server.
+## Creating a Server on your Account
+To create a Minecraft Java server, go to your Client Panel. On the left sidebar, choose Create Server. Type in all required information like server name, memory amount, and server location. Once done, click the Create button and wait at least a minute in the Client Panel for the new server to be created for your account.
+
+Now, in the [Game Panel](https://panel.falixnodes.net/) you should see the new server on your server list. If the server list indicates that it is still installing, wait at least 2 to 5 minutes for the installation to be complete. If the installation is taking longer than usual (over 5 to 10 minutes or more), head back to your [Client Panel](https://client.falixnodes.net/) and delete, then re-create the server.
+
+## Starting the Server
+ Select your new server and go to the Console tab, usually already selected by default. Click the Start button, located in the upper left corner of the Console tab. You're going to be selecting which type of server you want during the first startup of your new server. In this case, we're creating a Minecraft Java server, to select Minecraft Java, then the type of Minecraft Java server that you want like Vanilla or PaperMC, and select the version of Minecraft Java you want to play on.
+ 
+Click "I Accept" when the **Mojang EULA** pop up appears. The server is turn off for a few moments, then turn back on, and will continue to boot.
+
+During the first boot of any Minecraft server, it may take a while to prepare spawn area.
+
+## Using a Custom Jar
+Minecraft uses a __.jar__ file to start your server and setting a custom jar is easy.
+If the option you want isn't available on the first boot, a custom jar can be used. Simply upload the .jar file(e.g. __paper-1.16.5-774.jar__) to your server's root directory in files, then rename it to __custom.jar__. You can rename the file by clicking or tapping on the three dots on the right side, then clicking Rename.
+
+Falix will automatically detect the __custom.jar__ on the next launch of your server and will use the file to boot.
 
 # Choosing Your Server Java Version
 <!-- # What is Java? (An explantion for noobs will be added later on) -->
@@ -38,7 +54,8 @@ Now, go back to your console, start your server and you'll see it using the Java
 > If the above does not work, manually delete the `.jabba` folder and restart your server.
 
 # Accepting Mojang's EULA
-<!-- Who is Mojang? (An explantion for noobs will be added later on) -->
+If for whatever reason clicking "I Accept" didn't work when creating your server, you can still accept the EULA manually.
+
 In order to start your server, you must accept [Mojang's EULA](https://account.mojang.com/documents/minecraft_eula). If you agree to it, go to your server's file manager, find and open the file "`eula.txt`", find the "`eula`" string and set it to `true`.
 
 # Configuring
@@ -49,7 +66,7 @@ To configure MOTD(Message of the Day), the setting for this is usually found in 
 
 If you're interested in changing text colors, use these color codes:
 
-| Preview    | Color Code |
+| Preview        | Color Code                                      |
 |:---------------|:---------------------|:-------------------------|
 | <span id="black_color" class="color-block"></span> Black | \u00A70 |
 | <span id="dark_blue_color" class="color-block"></span> Dark Blue | \u00A71 |
@@ -89,13 +106,16 @@ As an example, if you wanted to op Notch, you would use:
 /op Notch
 ```
 
-Please don't use `/` in the Console tab.
+If you ever need to remove a player as operator, you could replace `/op` with `/deop`
 
-If you want to give some players access to specific admin commands, but not everything, you can use [LuckPerms](https://luckperms.net/) for this, which we recommend.
+Please don't use `/` in the Console tab, or will output as "unknown command". `/` should only be used in-game.
+
+If you want to give some players access to specific admin commands, but not everything, you can use [LuckPerms](https://luckperms.net/) for this, which we all recommend.
 
 # Connecting
 ## Find your Server IP Address
-In your [Game Panel](https://panel.falix.gg/) the IP is shown in the upper left on the Console tab. Use this to connect to your server.
+In your [Game Panel](https://panel.falix.gg/) the IP is shown in the upper left on the Console tab. Use this to connect to your server. It should look something like __de##.falixnodes.net:#####__.
+
 If you're looking for the numeric IP, this usually shows up when booting the server.
 
 ## Play In-Game
