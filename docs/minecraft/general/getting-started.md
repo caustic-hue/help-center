@@ -49,96 +49,24 @@ To configure MOTD(Message of the Day), the setting for this is usually found in 
 
 If you're interested in changing text colors, use these color codes:
 
-<div id="color_table_mc" class="collapsable">
-    <button onclick="openMenu_ColorMC();" id="open_ColorMC">View Colors <i class="fas fa-angle-up"></i></button>
-    <button onclick="closeMenu_ColorMC();" id="close_ColorMC">Colors <i class="fas fa-angle-down"></i></button>
-    <div id="cc_ColorMC" class="collapsable_content">
-        <table>
-        <tbody>
-        <tr>
-        <th id="black_color">COLOR_BLOCK</th>
-        <th>Black</th>
-        <th>\u00A70</th>
-        </tr>
-        <tr>
-        <th id="dark_blue_color">COLOR_BLOCK</th>
-        <th>Dark Blue</th>
-        <th>\u00A71</th>
-        </tr>
-        <tr>
-        <th id="blue_color">COLOR_BLOCK</th>
-        <th>Blue</th>
-        <th>\u00A79</th>
-        </tr>
-        <tr>
-        <th id="dark_green_color">COLOR_BLOCK</th>
-        <th>Dark Green</th>
-        <th>\u00A72</th>
-        </tr>
-        <tr>
-        <th id="green_color">COLOR_BLOCK</th>
-        <th>Green</th>
-        <th>\u00A7a</th>
-        </tr>
-        <tr>
-        <th id="dark_aqua_color">COLOR_BLOCK</th>
-        <th>Dark Aqua</th>
-        <th>\u00A73</th>
-        </tr>
-        <tr>
-        <th id="aqua_color">COLOR_BLOCK</th>
-        <th>Aqua</th>
-        <th>\u00A7b</th>
-        </tr>
-        <tr>
-        <th id="dark_red_color">COLOR_BLOCK</th>
-        <th>Dark Red</th>
-        <th>\u00A70</th>
-        </tr>
-        <tr>
-        <th id="red_color">COLOR_BLOCK</th>
-        <th>Red</th>
-        <th>\u00A7c</th>
-        </tr>
-        <tr>
-        <th id="dark_purple_color">COLOR_BLOCK</th>
-        <th>Dark Purple</th>
-        <th>\u00A75</th>
-        </tr>
-        <tr>
-        <th id="gold_color">COLOR_BLOCK</th>
-        <th>Gold</th>
-        <th>\u00A76</th>
-        </tr>
-        <tr>
-        <th id="yellow_color">COLOR_BLOCK</th>
-        <th>Yellow</th>
-        <th>\u00A7e</th>
-        </tr>
-        <tr>
-        <th id="light_purple_color">COLOR_BLOCK</th>
-        <th>Light Purple</th>
-        <th>\u00A7d</th>
-        </tr>
-        <tr>
-        <th id="gray_color">COLOR_BLOCK</th>
-        <th>Gray</th>
-        <th>\u00A77</th>
-        </tr>
-        <tr>
-        <th id="dark_gray_color">COLOR_BLOCK</th>
-        <th>Dark Gray</th>
-        <th>\u00A78</th>
-        </tr>
-        <tr>
-        <th id="white_color">COLOR_BLOCK</th>
-        <th>White</th>
-        <th>\u00A7f</th>
-        </tr>
-        </tbody>
-        </table>
-    </div>
-</div>
+| Preview    | Color Code |
+|:---------------|:---------------------|:-------------------------|
+| <span id="black_color" class="color-block"></span> Black | \u00A70 |
+| <span id="dark_blue_color" class="color-block"></span> Dark Blue | \u00A71 |
+| <span id="blue_color" class="color-block"></span> Blue | \u00A79 |
+| <span id="dark_green_color" class="color-block"></span> Dark Green | \u00A72 |
+| <span id="green_color" class="color-block"></span> Green | \u00A7a |
+| <span id="dark_aqua_color" class="color-block"></span> Dark Aqua | \u00A73 |
+| <span id="aqua_color" class="color-block"></span> Aqua | \u00A7b |
+| <span id="dark_red_color" class="color-block"></span> Dark Red | \u00A70 |
+| <span id="red_color" class="color-block"></span> Red | \u00A7c |
+| <span id="dark_gray_color" class="color-block"></span> Dark Gray | \u00A78 |
+| <span id="gray_color" class="color-block"></span> Gray | \u00A77 |
+| <span id="dark_purple_color" class="color-block"></span> Dark Purple | \u00A75 |
+| <span id="light_purple_color" class="color-block"></span> Light Purple | \u00A7d |
+| <span id="gold_color" class="color-block"></span> Gold | \u00A76 |
+| <span id="yellow_color" class="color-block"></span> Yellow | \u00A7e |
+| <span id="white_color" class="color-block"></span> White | \u00A7f |
 
 ## Server Icon
 The server icon helps indicate the branding of your Minecraft Java server, it's easy to set one. Simply create an icon that is 64x64 in resolution. Name the server icon as <u>server-icon.png</u> and add it to the root of your Minecraft Java server files.
