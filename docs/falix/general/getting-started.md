@@ -12,7 +12,7 @@ tags: Falix
 We use Discord as our preferred authorization method, you're required to register an account on Discord. To register an account on Discord, you'll need to provide an email, username, password for Discord along with setting your date of birth. After filling in the required information, check your email inbox for a verification email and verify your account.
 
 ## Signing up for Falix
-<img width="300" style="float: right;" src="https://help.falixnodes.net/assets/images/client-login.gif">
+<img width="100" style="float: right;" src="https://help.falixnodes.net/assets/images/client-login.gif">
 
  On our client panel, simply click on the button that says “Discord” and log in with your Discord account. Once done, you should be on our Client Panel and you should also see our server on your Discord.
 
